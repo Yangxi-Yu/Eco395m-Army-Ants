@@ -1,1 +1,3 @@
 # Eco395m-Army-Ants
+## Goal of the Analysis
+The goal of this project is to provide an overview of data science related jobs in Texas, California, and New York. Data science is fascinating, thriving, and well-paid field. Data scientists are needed in practically every domain: business, finance, science, health, and the public sector. According to our career placement report, many alumnis choose to work in data related filed. Therefore, this project intend to provide some information for econ students to help prepared themselves and find satisfying jobs. 
