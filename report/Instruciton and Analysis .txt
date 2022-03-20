@@ -1,9 +1,14 @@
 Analysis:
+Figure 1, 1-1, 1-2, 1-3:
+For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
+For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Spark. 
+For data scientists, Python, Power BI and Cloud are the most required skills, follwing by Statistics, ML, SQL.
 
-3-1:
+
+Figure 3-1:
 The table shows the top 20 companies that posted data jobs in California, New York State, and Texas in the last 30 days. Among them, JPMorgan Chase Bank (76) , Visa (56) , Deloitte (54) are at the top.
 
-3-2:
+Figure 3-2:
 This diagram shows the top 5 companies in terms of the number of job postings for the positions Data Analyst, Data Engineer, and Data Scientist.
 At JPMorgan Chase Bank and Citi, the job title with the highest demand is Data Analyst.
 At Visa, the job title with the highest demand is Data Engineer.
@@ -13,12 +18,40 @@ At Amazon.com Services LLC, the most in-demand position is Data Scientist.
 
 
 Instruction:
+Run analysis_plot.ipynb and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
 
-3-1:
+Figure 1: 
+Use pandas, matplot and wordcloud for this section.
+1. Create a dataframe showing number of skills among three job titles.
+(1) Create a dataframe by setting Title as an index.
+(2) Modify it and create a new dataframe containing the rows of skills and the columns of job types.
+2. Draw three pie plots showing the top 10 skills for each of the three job titles.
+(1) Make pie plot of top 10 skills for data analysts: 
+(i) Select the 'Data Analyst' column and create a new dataframe.
+(ii) Sort skill numbers and select the top 10 skills.
+(iii) Draw a pie plot for that modified dataframe.
+(2) Make pie plot of top 10 skills for data engineers:
+(i) Select the 'Data Engineers' column and create a new dataframe.
+(ii) Sort skill numbers and select the top 10 skills.
+(iii) Draw a pie plot for that modified dataframe.
+(3) Make pie plot of top 10 skills for data scientists:
+(i) Select the 'Data Scientist' column and create a new dataframe. 
+(ii) Sort skill numbers and select the top 10 skills.
+(iii) Draw a pie plot for that modified dataframe.
+3. Display these 3 plots in one row.
+
+Figure 1-1 instruction:
+Draw three wordcloud plots showing the frequency of skills for each job titles.
+(1) Create a new dataframe showing the number of all skills and sort them, by using dataframe of data analyst before.
+(2) Create a wordcloud plot for that dataframe.
+
+The instructions for Figure 1-2 and 1-3 are very similar to these two steps above.
+
+Figure 3-1:
 Use pandas for this section.
 Count the top 20 companies in terms of number of jobs posted.
 
-3-2:
+Figure 3-2:
 Use pandas and matplot for this section.
 (a) Select the top 5 companies among the top 20 companies in terms of number of jobs posted as dataframe company_top5.
 (b) Count the jobs for each category and company combination as dataframe company_top5_2.
@@ -27,7 +60,7 @@ Use pandas and matplot for this section.
 (e) Name the plot, x axis and y axis.
 (f) Reorder the y axis. In other words, the company with the most job posted should appear first.
 
-4:
+Figure 4:
 Use pandas and matplot for this section.
 (a) Count the top 5 industries in terms of number of jobs posted as dataframe industry_top5.
 (b) Count the jobs for each category and industry combination as dataframe industry_top5_2.
