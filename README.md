@@ -19,7 +19,7 @@ This program mainly uses quantitative method to analysis the data science job ma
 * It uses matplotlib to create plots and figures to visualize the relationships between the data related jobs and skills, locations, companies, industries, and salary.
 ## Findings
 ### 2. Location Vs Job Vacancies
-![The Number of Jobs of Each Category in Three States](figure/figure2.png)
+![The Number of Jobs of Each Category in Three States](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/e8e00ded4b6da2bbe58f23e733481bae1539f5dd/figure/figure2.png)
 * Overall, California has the highest number of Data jobs posted. Among the three states, Data Analyst has the highest number of jobs posted, with 800 or more, and Data Engineer has the lowest number of jobs.
 Specifically,  in California,  the number of Data Analyst and Data Scientist jobs posted is about the same, at 800 or more.
 * New York State has the highest number of Data Analyst jobs, with a large gap between the number of Data Engineer and Data Scientist jobs.The number of Data Engineer jobs posted in the three states is the lowest, at about 200.
