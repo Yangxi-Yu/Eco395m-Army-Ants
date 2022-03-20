@@ -13,7 +13,7 @@ JOB_SKILL_FILE_LIST = [
     'job_skills_counts_Data Engineer.csv'
 ]
 
-OUT_PATH = os.path.join("data", "300_job_industry_skill.csv")
+OUT_PATH = os.path.join("data", "job_desc_info.csv")
 
 def get_job_industry_merged_df(JOB_INDUSTRY_FILE_LIST):
 

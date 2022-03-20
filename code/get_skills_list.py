@@ -64,11 +64,6 @@ def get_job_des_scripts(INPUT_PATH):
         script = html.find_all(id = 'jobDescriptionText')
         jid = df_job_des_html['jid'][row]
         jid_scripts_dict[jid] = script
-    
-    # html = BeautifulSoup(df_job_des_html['HTML'][88],'html.parser') #
-    # script = html.find_all(id = 'jobDescriptionText') #
-    # jid = df_job_des_html['jid'][88] #
-    # jid_scripts_dict[jid] = script #
 
     jid_scripts_df = pd.DataFrame(list(jid_scripts_dict.items()))
     jid_scripts_df.columns = ['jid', 'scripts']
