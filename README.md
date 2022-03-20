@@ -37,9 +37,9 @@ This project has four limitations in data resource: limited data quantity, ambig
 * According to the exist conclusion, this project intends to provide some useful advice for those economic students who has the willingness to seek data related career. 
 
 ## Instructions
-2. Data Scrape and Clean
+### 2. Data Scrape and Clean
 Run python3 code/get_searched_job_html.py and enter position, location, date range, sort to scrape the job list html in the indeed website. In this project, please enter following parameters:
-s
+
 |Generate Files|Parameters Entered|
 |--------------|------------------|
 |Data Analyst_Texas_30.csv|Data Analyst, Texas, 30, data|
