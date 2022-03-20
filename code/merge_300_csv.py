@@ -36,7 +36,6 @@ def get_job_skill_merged_df(JOB_SKILL_FILE_LIST):
     for file in JOB_SKILL_FILE_LIST:
         file_path = os.path.join("data", file)
         df_file = pd.read_csv(file_path)
-        df_file['Title'] = file.split('_')[3].split('.')[0]
 
         job_skill_df = pd.concat([job_skill_df, df_file])
 
