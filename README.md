@@ -39,17 +39,10 @@ This project has four limitations in data resource: limited data quantity, ambig
 ## Instructions
 2. Data Scrape and Clean
 Run python3 code/get_searched_job_html.py and enter position, location, date range, sort to scrape the job list html in the indeed website. In this project, please enter following parameters:
-|Generate Files                      |Parameters Entered                      |  
-|------------------------------------|----------------------------------------|   
-|Generate Files                      |Parameters Entered                      |     
-|Data Analyst_Texas_30.csv           |Data Analyst, Texas, 30, date           |
-|Data Analyst_California_30.csv      |Data Analyst, California, 30, date      |
-|Data Analyst_New York State_30.csv  |Data Analyst, New York State, 30, date  |
-|Data Engineer_Texas_30.csv          |Data Engineer, Texas, 30, date          |
-|Data Engineer_California_30.csv     |Data Engineer, California, 30, date     |
-|Data Engineer_New York State_30.csv |Data Engineer, New York State, 30, date |
-|Data Scientist_Texas_30.csv         |Data Scientist, Texas, 30, date         |
-|Data Scientist_California_30.csv    |Data Scientist, California, 30, date    |
-|Data Scientist_New York State_30.csv|Data Scientist, New York State, 30, date|
+s
+|Generate Files|Parameters Entered|
+|--------------|------------------|
+|Data Analyst_Texas_30.csv|Data Analyst, Texas, 30, data|
+
 Part (2) Clean HTML csv file, and saved the cleaned file in csv.
 3. Analyze and visualize cleaned data
