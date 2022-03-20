@@ -1,4 +1,5 @@
 # Eco395m-Army-Ants
+## Team Army Ants Midterm Project for Python, Data, and Databases
 ## Group Members
 * Yangxi Yu
 * Xiaohan Sun
@@ -31,4 +32,23 @@ This project has four limitations in data resource: limited data quantity, ambig
 * Most posted job vacancies in Indeed are targetd on experienced job seekers, which may be not friendyly to fresh graduates. 
 
 ## Extensions
-To make the further project be perfect, our team may set a program from now to catch the job information from Indeed every 30 days to prepare for predicting the trend of data science job market. Besides, Moreover, according to the exist conclusion, this project intends to provide some useful advice for those economic students who has the willingness to seek data related career. 
+* To make the further project be perfect, our team may set a program from now to catch the job information from Indeed every 30 days to prepare for predicting the trend of data science job market. 
+* Factors that can influence the salaries among differenct regions such as tax, house price may be considered in the future analysis. 
+* According to the exist conclusion, this project intends to provide some useful advice for those economic students who has the willingness to seek data related career. 
+
+## Instructions
+2. Data Scrape and Clean
+Run python3 code/get_searched_job_html.py and enter position, location, date range, sort to scrape the job list html in the indeed website. In this project, please enter following parameters:
+|Generate Files|Parameters Entered|
+|--------------|------------------|
+|Data Analyst_Texas_30.csv|Data Analyst, Texas, 30, date|
+|Data Analyst_California_30.csv|Data Analyst, California, 30, date|
+|Data Analyst_New York State_30.csv|Data Analyst, New York State, 30, date|
+|Data Engineer_Texas_30.csv|Data Engineer, Texas, 30, date|
+|Data Engineer_California_30.csv|Data Engineer, California, 30, date|
+|Data Engineer_New York State_30.csv|Data Engineer, New York State, 30, date|
+|Data Scientist_Texas_30.csv|Data Scientist, Texas, 30, date|
+|Data Scientist_California_30.csv|Data Scientist, California, 30, date|
+|Data Scientist_New York State_30.csv|Data Scientist, New York State, 30, date|
+Part (2) Clean HTML csv file, and saved the cleaned file in csv.
+3. Analyze and visualize cleaned data
