@@ -1,5 +1,9 @@
+os
+pandas
 requests
 bs4
 numpy
 python-time
+matplotlib.pyplot
 wordcloud
+seaborn
