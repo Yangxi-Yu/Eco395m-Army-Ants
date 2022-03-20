@@ -9,7 +9,7 @@
 * Liming Pang
 ## Data Source 
 The raw data comes from the Indeed website. 
-  LINK:
+LINK:
 ## Goal of the Analysis
 The goal of this project is to provide an overview of data science related jobs in Texas, California, and New York. Data science is a fascinating, thriving, and well-paid field. Data scientists are needed in practically every domain: business, finance, science, health, and the public sector. According to our career placement report, many alumni choose to work in data related filed. Therefore, this project intends to provide some information for econ students to help prepared themselves and find satisfying jobs.
 ## Methodology
@@ -18,7 +18,12 @@ This program mainly uses quantitative method to analysis the data science job ma
 * It uses Pandas to clean and reorganize raw data, and then generates a csv with six columns including job id, job title, company name, location, salary, and job rating.
 * It uses matplotlib to create plots and figures to visualize the relationships between the data related jobs and skills, locations, companies, industries, and salary.
 ## Findings
-
+### 2. Location Vs Job Vacancies
+![The Number of Jobs of Each Category in Three States](figure/figure2.png)
+* Overall, California has the highest number of Data jobs posted. Among the three states, Data Analyst has the highest number of jobs posted, with 800 or more, and Data Engineer has the lowest number of jobs.
+Specifically,  in California,  the number of Data Analyst and Data Scientist jobs posted is about the same, at 800 or more.
+* New York State has the highest number of Data Analyst jobs, with a large gap between the number of Data Engineer and Data Scientist jobs.The number of Data Engineer jobs posted in the three states is the lowest, at about 200.
+* Texas also posted the largest number of Data Analysts, with a large gap with the number of Data Engineer and Data Scientist.
 ## Limitations
 ### Data 
 This project has four limitations in data resource: limited data quantity, ambiguous classification, limited period, and opaque soft skill identification.
@@ -38,7 +43,7 @@ This project has four limitations in data resource: limited data quantity, ambig
 
 ## Instructions
 ### 2. Data Scrape and Clean
-Run python3 code/get_searched_job_html.py and enter position, location, date range, sort to scrape the job list html in the indeed website. In this project, please enter following parameters:
+Run ```python3 code/get_searched_job_html.py``` and enter position, location, date range, sort to scrape the job list html in the indeed website. In this project, please enter following parameters:
 
 |Generate Files|Parameters Entered|
 |--------------|------------------|
