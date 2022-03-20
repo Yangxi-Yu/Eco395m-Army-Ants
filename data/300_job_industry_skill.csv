@@ -1,0 +1,301 @@
+jid,Company_name,Industry,Title_x,math,statistics,communication,presentation,collaboration,python,r,sql,java,stata,tableau,curiosity,spark,excel,word,powerpoint,bi,etl,aws,snowflake,writing,reading,cloud,matlab,ai,ml,c,linux,pytorch,nlp,pandas,matplotlib,hive,Title_y
+5b759e24494b95b0,Integra MLTC,Healthcare,Data Analyst,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+861e484d770bc9fb,General Motors,Transportation Equipment Manufacturing,Data Analyst,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+d4bfc3a2ddddd293,General Motors,Transportation Equipment Manufacturing,Data Analyst,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Analyst
+5b96b07c0f70a00d,Cigniti Technologies,Information Technology,Data Analyst,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Analyst
+867687c42b2834c2,"Ursus, Inc.",Human Resources & Staffing,Data Analyst,0,0,0,0,0,1,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,Data Analyst
+518c00ccb9c66783,Ellucian,Information Technology,Data Analyst,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+ac0fe18fbf431cd7,Mobileum Inc.,,Data Analyst,0,0,2,1,0,1,0,1,0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+4b0578da9a82451d,TentandTable.com,Advertising & Public Relations,Data Analyst,0,0,1,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+d83491aee3d8718e,"Martin Luther King, Jr. Community Hospital",Healthcare,Data Analyst,0,1,2,0,0,0,0,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Analyst
+8c45cef3aa924314,City of Lewisville,Government & Public Administration,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+2e8410547562ab66,American First Finance,Financial Services,Data Analyst,1,1,1,1,0,0,0,1,0,0,0,1,0,1,0,0,4,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+e61b3ee49103b3d1,Centivo,Insurance Carriers,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+62c219f12718b265,The Parent Company,,Data Analyst,0,0,0,0,1,0,0,1,0,0,1,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+f15ce97a2906063d,SMS Datacenter,,Data Analyst,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Data Analyst
+17a375452b2a6c15,United Talent Agency (UTA),,Data Analyst,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+b830e882723ea363,MasterBrand Cabinets Inc.,"Construction, Repair & Maintenance Services",Data Analyst,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,Data Analyst
+fc32350041c7b368,Apollo MIS LLC,Software Development,Data Analyst,0,1,1,0,0,1,0,3,0,0,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+657369749490a4be,San Jose/Evergreen Community College District,,Data Analyst,0,2,1,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+46bb65fa83cf9c57,PFS Group,Healthcare,Data Analyst,1,0,1,0,0,0,0,3,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+40865fa7341d97bb,Walmart,Retail & Wholesale,Data Analyst,0,5,0,0,0,1,1,1,0,0,4,0,0,2,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,Data Analyst
+b94b738971767f2f,Triumph Business Capital,Transportation & Logistics,Data Analyst,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+71ad95441614f177,Anheuser-Busch,Retail & Wholesale,Data Analyst,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+516fdc4853de2da1,Verizon,Telecommunications,Data Analyst,1,0,0,0,0,0,0,2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+558beefcf93b78b5,AdAction Interactive LLC,,Data Analyst,0,0,1,0,0,1,1,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+b96fa630a7545e60,CBS,Media & Communication,Data Analyst,0,1,0,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Analyst
+fd8698c6da8ac2a5,Trust Consulting Services Inc.,Management & Consulting,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+7fa2e7e51704fd86,VS Media,,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+bb6ef1bd75fb27bd,Internet Brands,Information Technology,Data Analyst,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+52c6c0238dfd8d90,ECC,Business Consulting,Data Analyst,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+6e11d93a1e66129c,Hotchkis & Wiley,,Data Analyst,0,0,1,0,0,0,0,3,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Analyst
+a0c029ded94b17eb,Apple,Manufacturing,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+f7a8ea9cda41a970,QuinStreet,Software Development,Data Analyst,0,1,0,0,0,1,1,1,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+70e2f0779798c827,S&P Global,Financial Services,Data Analyst,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+d3a02f8c1fac24d1,S&P Global,Financial Services,Data Analyst,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+b0333913a3dc4c79,Remington Hotels,Hotels & Travel Accommodation,Data Analyst,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,0,0,0,Data Analyst
+44934d5d47849e3a,SoHo Dragon,,Data Analyst,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+341a3404623861ed,"CareMount Health Solutions, LLC",Healthcare,Data Analyst,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,3,0,0,0,0,0,0,0,0,0,0,Data Analyst
+c8c90ecb0612d698,UNIVERSAL Technologies,Metal & Mineral Manufacturing,Data Analyst,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+b6139f183325cbfe,"Blue Cross Blue Shield of IL, MT, NM, OK & TX",Healthcare,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+a39bb64a9bdcfddb,Deloitte,Management & Consulting,Data Analyst,0,0,1,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Analyst
+9633ead3d6f6cd13,Sysco,Retail & Wholesale,Data Analyst,0,0,1,0,0,0,0,1,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+fc9b7cc16312dd96,Acquco,Retail & Wholesale,Data Analyst,1,0,1,0,1,0,0,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+6ada3155fbdee47d,"TapHere Technology, LLC",,Data Analyst,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Analyst
+38bfe5acd2bf7e25,Trinity Industries,Manufacturing,Data Analyst,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+ab321f809df17a77,CBANC Network,,Data Analyst,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+108a5f74c7efe127,Gap Inc.,Retail & Wholesale,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+816ae2bebaaf6496,Pepperdine University,Education,Data Analyst,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+83e64e2a1997b1f2,Dutech System,,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+34f46bf318d18b6c,Inspire Medical Systems I,,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+2a6a8d6452af429e,Vestracare,Nursing Care Facilities,Data Analyst,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+49649eb2d85795dd,City of Hope,Healthcare,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+aa6d412ca10442d6,NYC Careers,Government & Public Administration,Data Analyst,0,0,1,0,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Data Analyst
+444bc79cc334e9ea,A-LIGN,,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+1259e08bcdff6bf8,Volcom llc,,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+c0173e0dca18d7b8,The Marketing Arm,Consulting and Business Services,Data Analyst,0,0,3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+0ed3b3b6b9084002,Blackstone Technology Group,Education,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+5e077c276c69cd41,Wish,Retail & Wholesale,Data Analyst,1,1,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+8063f5afc49dc48f,Hewlett Packard Enterprise,Information Technology,Data Analyst,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+24898df80ad3b5fe,County of San Mateo,,Data Analyst,0,0,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+e14e91dd330b89e8,Luxottica,Retail & Wholesale,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+05b17691970de8ff,ST. David's Healthcare,Health Care,Data Analyst,0,0,0,0,0,1,1,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+4c28707e7f066cce,"City of Burbank, CA",Government & Public Administration,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Data Analyst
+51384650eb84e45a,Capgemini,Information Technology,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+a0d192e6266ac454,"INFINITY COURT RESEARCH & RETRIEVAL, INC",Human Resources & Staffing,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+7de8c5664a5018d6,First American,Financial Services,Data Analyst,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+dae46e7e506b5453,AT&T,Telecommunications,Data Analyst,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+a6de06528bded11f,AT&T,Telecommunications,Data Analyst,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+f3b87f46c4fe54f7,FedEx Services,Transportation & Logistics,Data Analyst,0,0,1,1,0,2,2,3,2,0,2,0,0,1,2,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,0,0,Data Analyst
+84d9b50a1f73e745,United Regional Health Care System,Healthcare,Data Analyst,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+732c4c7fd4b06e0a,NGK Spark Plugs (USA) Inc.,Transportation Equipment Manufacturing,Data Analyst,0,0,1,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+9dbc1a4563ccbef0,NYC Health + Hospitals,Healthcare,Data Analyst,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+00d46e77adc9b168,Forage,Restaurants & Cafes,Data Analyst,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+6424bf5322a7797f,Allsup's Convenience Stores,Personal Consumer Services,Data Analyst,0,1,1,0,1,2,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Analyst
+87f8bbcf854ddb6e,ConnectiCare,Insurance Carriers,Data Analyst,0,0,1,1,0,0,0,1,0,0,0,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+bd33241011aea839,Fidelity Investments,Financial Services,Data Analyst,0,0,0,0,0,1,1,2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+00ec72a9d5e4397a,HealthTrust,,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+3216de77ccb1215b,Scripps Research,Nonprofit & NGO,Data Analyst,0,2,1,0,0,3,1,0,0,0,1,0,0,1,1,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,Data Analyst
+1334997d69bf2a32,Beta Search,,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+6aad4200a4051d2c,"Vizient, Inc.",Healthcare,Data Analyst,0,1,0,0,0,0,0,2,0,0,0,0,0,1,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+a564475c5d301bf2,Chainalysis,Information Technology,Data Analyst,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+03e2aa8c9335ddd8,Amazon.com Services LLC,Information Technology,Data Analyst,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+a80aec7279f7e041,"Entegris, Inc.",,Data Analyst,0,1,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Analyst
+45896771d725150a,California State University,Education,Data Analyst,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+c7ca17e2e2f1efb8,Staffing Solutions Organization LLC (SSO),,Data Analyst,0,0,1,0,0,0,0,2,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+8b22418b62685047,Change Healthcare,Healthcare,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+2b2fea248ab87ab4,Mr. Cooper,Financial Services,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+396c1d9779011e4f,Austin Community College,Education,Data Analyst,0,1,0,1,1,0,0,2,0,0,1,1,0,0,1,0,13,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Analyst
+b3b664c774b8b808,Cognizant,Information Technology,Data Analyst,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+9ac46c98e2a16bbc,"CNO Financial Group, Inc.",Insurance,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+f134f5b23a57130e,Visa,Financial Services,Data Analyst,0,0,1,0,0,1,0,1,0,0,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Data Analyst
+c13245286ca384f9,West Advanced Technologies (WATI),,Data Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+5f07bd46ccd9b70c,KPMG,Accounting & Tax,Data Analyst,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+9451118b4909e3da,BTI Solutions,Telecommunications,Data Analyst,0,0,2,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+4b17fa9f00a7e4a2,"Stefanini, Inc",Information Technology,Data Analyst,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+01305f0097c41ac6,"JPMorgan Chase Bank, N.A.",,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+60578bd793b6778b,Citi,Financial Services,Data Analyst,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+985578fe483ecde9,Immigrant Legal Resource Center,,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+4feb0c45890d06dc,Gelfand Rennert & Feldman,Consulting and Business Services,Data Analyst,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+836ec28b156acd44,Google,Information Technology,Data Analyst,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+990837eec78d532b,MobilityWare,"Arts, Entertainment & Recreation",Data Analyst,1,1,2,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Analyst
+bc52cdd785a7cdc7,Jam City,Transportation Equipment Manufacturing,Data Scientist,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+6f45757c76df9a6f,Spacee,,Data Scientist,0,0,1,0,1,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Data Scientist
+4b3eea431e7e19fb,Twitch,Media & Communication,Data Scientist,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,Data Scientist
+35b249950f5e762f,Labcorp,Healthcare,Data Scientist,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+0934f9487f2b68db,Upward Health,,Data Scientist,0,2,2,0,1,3,0,3,0,0,0,1,2,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,Data Scientist
+0c60c591dac8c462,Upward Health,,Data Scientist,0,0,2,0,1,2,0,4,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,Data Scientist
+9a1c4aa514c7c0b5,Micron,Information Technology,Data Scientist,0,1,1,1,0,3,0,1,1,0,0,0,1,0,0,0,0,2,0,1,0,0,0,0,2,0,1,0,0,0,0,0,1,Data Scientist
+536b08097e98b427,CEDENT,Information Technology,Data Scientist,0,1,0,0,0,1,1,1,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+80770a4d5b64632c,Workday,Information Technology,Data Scientist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,6,0,0,0,0,0,0,0,Data Scientist
+414b53475e3bce02,Workday,Information Technology,Data Scientist,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,2,0,3,2,0,0,0,0,0,0,0,Data Scientist
+d3722d2766f71db5,ACV Auctions,Information Technology,Data Scientist,0,1,0,0,0,2,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,2,0,0,0,0,0,0,0,Data Scientist
+263c657b4919fed3,UCLA,,Data Scientist,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+4006acb657e2dffc,UCLA,,Data Scientist,0,1,1,0,0,1,2,0,0,2,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+c6267784825f9c2b,Academic Partnerships,,Data Scientist,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+6e96194989308400,Edgetensor Technologies,,Data Scientist,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,0,3,0,0,0,0,0,0,Data Scientist
+ea450060f9240fc1,KPMG,Accounting & Tax,Data Scientist,0,3,0,0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+8b888237367c46ea,3T Biosciences,,Data Scientist,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,5,0,0,1,0,0,0,0,0,0,0,Data Scientist
+baeb43b43a7add23,"Sony Pictures Entertainment, Inc.",Media & Communication,Data Scientist,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+844095f42e83d695,Snapchat,Photography,Data Scientist,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+8becec7074d0191a,Forethought,Management & Consulting,Data Scientist,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,2,0,0,5,1,0,0,1,2,0,0,0,Data Scientist
+7c892f318e605173,The START Center for Cancer Care,Healthcare,Data Scientist,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+d6746c74cea5a71a,University of California Berkeley,Education,Data Scientist,0,0,1,0,2,1,1,1,0,0,1,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+370b943a2c13a9a0,Ambiq,,Data Scientist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Data Scientist
+76b802451edce388,VMware,Information Technology,Data Scientist,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,15,0,0,0,0,0,0,0,0,0,0,Data Scientist
+e5861033c7e46670,Linqia,,Data Scientist,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,1,0,2,0,0,2,0,0,1,0,1,0,0,Data Scientist
+5208d59a611da5be,Loon,,Data Scientist,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,Data Scientist
+03464ebcc82dfedf,FLYR Labs,,Data Scientist,1,0,0,0,2,1,0,2,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,2,1,0,0,0,0,0,0,Data Scientist
+c8ebb01aac129fb3,Accenture,Information Technology,Data Scientist,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Data Scientist
+5120adaf070fd1d0,Accenture,Information Technology,Data Scientist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,1,0,1,0,0,0,0,0,0,Data Scientist
+2d3d2253ace9262a,BrainStation,Education & Training Services,Data Scientist,0,0,1,0,1,2,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Data Scientist
+e2624997c35f5555,Intel,Electronics Manufacturing,Data Scientist,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,12,0,0,0,0,0,0,0,0,Data Scientist
+de539c2ea412da0a,Booster Fuels,,Data Scientist,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Scientist
+98d8e3dd20ff5f24,IBM,Information Technology,Data Scientist,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,Data Scientist
+13ee91380483de8f,PayPal,Financial Services,Data Scientist,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,0,0,1,0,0,0,Data Scientist
+0a577c5085e2a106,PayPal,Financial Services,Data Scientist,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Data Scientist
+c672f01176727f8c,Salesforce,Information Technology,Data Scientist,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Data Scientist
+1f1a521e7f079164,Salesforce,Information Technology,Data Scientist,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Data Scientist
+c6ee1761d29eac5b,Frontapp,Management & Consulting,Data Scientist,0,0,2,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Scientist
+794a4797f14800b3,Dell Technologies,Information Technology,Data Scientist,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,2,1,0,0,0,0,0,0,0,Data Scientist
+594348250143da55,Dell Technologies,Information Technology,Data Scientist,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,Data Scientist
+b5b95f1555121c42,Visa,Financial Services,Data Scientist,0,0,1,0,0,1,0,2,0,0,1,0,2,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,Data Scientist
+4bae43bdd61d42d8,Visa,Financial Services,Data Scientist,0,0,1,0,0,2,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,Data Scientist
+ddd241c95548afa0,Endpoint Closing,Real Estate,Data Scientist,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,3,1,0,0,0,0,0,0,Data Scientist
+47302f235d37cb4f,UT Southwestern Medical Center,Healthcare,Data Scientist,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Data Scientist
+a94c2721af4e562b,Aerosapien Technologies LLC,Aerospace & Defense,Data Scientist,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Data Scientist
+8319d54337453184,Pinterest,Information Technology,Data Scientist,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+21d0b36a01b7a2c2,Change Healthcare,Healthcare,Data Scientist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,Data Scientist
+489319c33a09245c,RCS,Construction,Data Scientist,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,Data Scientist
+120e61e8f169f0b5,Square,Financial Services,Data Scientist,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,Data Scientist
+c3e7ad6329886a8a,Levi Strauss & Co.,Retail & Wholesale,Data Scientist,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,Data Scientist
+d405eb699502db99,Step,Media & Communication,Data Scientist,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Scientist
+83c092ed56b7a3ef,Microsoft,Information Technology,Data Scientist,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,5,0,3,0,0,1,0,0,0,Data Scientist
+65f4793b1749d23a,Microsoft,Information Technology,Data Scientist,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,1,0,0,0,0,0,0,Data Scientist
+a7fb366b552296b8,NortonLifeLock,Information Technology,Data Scientist,0,2,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+4b7330e0bfa26b33,ByteDance,Information Technology,Data Scientist,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+f01ed45ae9d69850,ByteDance,Information Technology,Data Scientist,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+4532001526369db5,Frontdoor,Insurance,Data Scientist,0,2,1,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Data Scientist
+beeeabe5ae995991,AArete,Business Consulting,Data Scientist,1,2,0,0,1,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+ea74fb89e5ffd4b1,KOHLS,,Data Scientist,0,0,0,0,0,2,2,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+1cbacd17cfd15993,Johnson & Johnson Family of Companies,,Data Scientist,0,1,1,0,0,1,0,2,0,0,2,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+9f9d846b28d9eb79,Johnson & Johnson Family of Companies,,Data Scientist,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Scientist
+c2baa12eeb738d2d,CASES,,Data Scientist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+901d4b95dfd4be64,Spring Health,Healthcare,Data Scientist,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+a42da2b31bc98d22,General Motors,Transportation Equipment Manufacturing,Data Scientist,0,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,Data Scientist
+980dfefb597ecf2c,Sofar Ocean,Information Technology,Data Scientist,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,Data Scientist
+f25e09a46acbd65e,Southern California Edison,"Energy, Mining & Utilities",Data Scientist,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+a0495dfc47426d3a,Notion,,Data Scientist,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+07aca9d21f5d119e,Wescom Credit Union,Financial Services,Data Scientist,0,1,1,0,0,2,0,1,0,0,0,0,0,2,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Scientist
+75cce51fc5f350f4,Northspyre,Nonprofit & NGO,Data Scientist,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Scientist
+3210a2bc0e05c220,Block,Construction,Data Scientist,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Data Scientist
+0c20308a826520f3,Baker Hughes,,Data Scientist,1,2,1,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,Data Scientist
+77bde436bbd5d57a,Stanford University,Education,Data Scientist,0,3,0,0,1,1,2,1,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+3c0ec768a7bc0b38,WELLS FARGO BANK,,Data Scientist,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+917fe95f43cf2ab5,Uber,Information Technology,Data Scientist,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+1028d89554803b9b,Apple,Manufacturing,Data Scientist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Data Scientist
+a82cb457861c19e0,Brightline,Advertising & Public Relations,Data Scientist,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Data Scientist
+ea95bd729c03ba79,RELX,Information Technology,Data Scientist,0,2,0,1,0,2,2,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+d577297dc8bd5985,Exponent,Research & Development,Data Scientist,0,2,1,0,0,1,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,Data Scientist
+93e03bd581a8cd88,Amazon.com Services LLC,Information Technology,Data Scientist,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,6,0,0,0,2,0,2,0,0,0,0,0,0,0,0,Data Scientist
+42bf09c1dc1bf803,Amazon.com Services LLC,Information Technology,Data Scientist,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,1,0,1,2,0,0,3,0,0,0,0,Data Scientist
+ec054d914906bead,Toyota,Transportation Equipment Manufacturing,Data Scientist,0,0,1,1,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+6aa26011f6e965cc,CDK Global,Information Technology,Data Scientist,0,1,1,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+f2d6975caaebe56b,ABM Industries,,Data Scientist,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+e80ca2ead8755933,Cerebral,Software Development,Data Scientist,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+55b7744db9fb4386,SiteRx,HR Consulting,Data Scientist,0,3,1,1,0,1,0,2,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,1,Data Scientist
+eeb9b5dd1f1b3fc1,Iterative Scopes,Healthcare,Data Scientist,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,1,0,1,0,0,0,0,Data Scientist
+29efc512fcc08694,"TapHere Technology, LLC",,Data Scientist,0,0,1,0,0,2,2,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,Data Scientist
+8f5fd5312cc2f441,"Farmer's Business Network, Inc.",Agriculture,Data Scientist,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Scientist
+0d472b25ab229b72,Verizon,Telecommunications,Data Scientist,0,2,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Data Scientist
+cf87e8a634ade311,"Data Science Works, Inc",Software Development,Data Scientist,1,0,1,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,3,1,0,0,0,0,0,0,0,Data Scientist
+faf205c91c36fd6c,UnitedHealth Group,Healthcare,Data Scientist,0,4,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,2,0,0,0,Data Scientist
+c2c117cb35d02565,Bank of America,Financial Services,Data Scientist,0,0,1,0,0,1,0,3,0,0,3,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Data Scientist
+f951cfec30dff58a,Michaels,Retail & Wholesale,Data Scientist,1,2,1,0,0,1,1,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+b0164c95e99da149,Mulligan Funding,Banking & Lending,Data Scientist,0,2,1,1,1,1,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+ba097ab638ddc0b4,Deloitte,Management & Consulting,Data Scientist,0,2,1,0,0,1,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+56b1892a6dd0fec9,Experian,Financial Services,Data Scientist,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Scientist
+1c0d3a9907d0ca82,Blue Shield of California,Healthcare,Data Scientist,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+35a35dcd3f15f22d,Bill.com,Accounting & Tax,Data Scientist,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Scientist
+33dc5ea6b7bdf7e7,SolarWinds,Information Technology,Data Scientist,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,11,0,0,1,1,0,0,0,Data Scientist
+1bd9deb60fca6380,Citi,Financial Services,Data Scientist,0,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Scientist
+944740d981213184,New Relic,Information Technology,Data Engineer,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+c283b35acb3867dd,Knoema,,Data Engineer,0,0,1,0,0,1,0,5,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,1,0,1,Data Engineer
+431e8eaf91227748,ENGINE Group,,Data Engineer,2,1,0,0,1,2,0,1,0,0,0,0,1,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,2,1,0,0,Data Engineer
+176bac3dde580771,"Jefferies & Company, Inc.",Financial Services,Data Engineer,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+d3fe6815aceaba6a,"Jefferies & Company, Inc.",Financial Services,Data Engineer,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+8264c6640c8591d7,Avratti Solutions Corp,Information Technology Support Services,Data Engineer,1,1,0,0,0,2,0,1,0,0,0,0,3,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,Data Engineer
+35f0a4a17ab7b624,PRICE WATERHOUSE COOPERS,,Data Engineer,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,3,3,0,0,10,0,1,2,0,0,0,0,0,0,0,Data Engineer
+6b4ac1dfdadcc342,Rubrik Job Board,Information Technology,Data Engineer,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Data Engineer
+d57fec2f0ca2f87d,Palo Alto Networks,Information Technology,Data Engineer,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,6,0,0,0,0,0,0,0,0,0,1,Data Engineer
+03f8a4dac7fc64a6,CEDARS-SINAI,Healthcare,Data Engineer,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+cfea18c4ce9f1102,James Avery Craftsman Inc,Retail & Wholesale,Data Engineer,0,0,1,0,0,2,0,1,0,0,0,0,2,0,0,0,0,1,0,0,0,0,2,0,0,0,0,1,0,0,1,0,0,Data Engineer
+e4d1272889da14cf,Siemens,Energy & Utilities,Data Engineer,0,0,2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Engineer
+3f861359a93b7846,Tailored Management,Human Resources & Staffing,Data Engineer,0,0,0,0,0,2,3,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,Data Engineer
+c9e8d64e46a45746,Larsen & Toubro Infotech Limited,,Data Engineer,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+600175f50bceef01,Disney Streaming,,Data Engineer,0,0,1,0,0,1,0,1,0,0,0,0,2,0,0,0,0,1,2,2,1,0,3,0,0,0,0,0,0,0,0,0,1,Data Engineer
+ed01880594065e9f,Acunor,,Data Engineer,0,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+69d86d855e088ba0,Akshaya,Hotels & Resorts,Data Engineer,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Engineer
+a34ec4b5e176d4ed,Cyndx,Financial Services,Data Engineer,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,3,0,0,0,0,2,0,0,0,Data Engineer
+5cae8a48a76ad36a,BitGo,Information Technology,Data Engineer,0,0,2,0,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Engineer
+a601f9263930d640,Cloudflare,Information Technology,Data Engineer,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,Data Engineer
+52c759523645acf7,Whip Media,,Data Engineer,0,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+3c9825f4c8e27ddc,Baker Hughes,,Data Engineer,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+dce539b185c62ce7,Quantum-Si,,Data Engineer,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,Data Engineer
+06cac957a0eeacad,Nuro,Architectural & Engineering Services,Data Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Data Engineer
+c01e3374ee2c8fe6,Intel 471,,Data Engineer,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,1,0,0,0,0,0,Data Engineer
+e41accd880f2de66,Wondr Health,Healthcare,Data Engineer,0,0,1,0,0,1,0,2,0,0,0,0,0,0,0,0,1,1,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+15bf87c34c4fcd7a,Ryzen Solutions,Health Care Products Manufacturing,Data Engineer,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,0,0,Data Engineer
+8972efb6d3e3ac97,AR Val services,Information Technology,Data Engineer,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,4,3,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+3477a99b1f09e324,"CDNetworks Europe, CO. LTD.",,Data Engineer,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,Data Engineer
+ce801c28a6defece,Autodesk,Information Technology,Data Engineer,0,2,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,3,0,0,1,2,1,0,1,Data Engineer
+976899366ef78ba0,Amazon.com Services LLC,Information Technology,Data Engineer,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,1,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Data Engineer
+dcd4258e27e6844d,Amazon.com Services LLC,Information Technology,Data Engineer,0,0,0,0,0,1,0,2,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Data Engineer
+8f1ed2fc911b5070,DISH,Media & Communication,Data Engineer,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,Data Engineer
+3731161ef1b57adc,Chronograph,,Data Engineer,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+0feeb3eaa9d63cfd,Providence,,Data Engineer,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,3,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Data Engineer
+9337de76b5c6c8a4,ManTech International Corporation,Information Technology,Data Engineer,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Engineer
+0fe331b7a35da7a2,Plaid,Information Technology,Data Engineer,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Data Engineer
+6b275053e2a9da3a,Visa,Financial Services,Data Engineer,0,0,1,1,0,1,0,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,Data Engineer
+da3c4a5452c658c3,Visa,Financial Services,Data Engineer,0,0,2,1,0,0,0,1,2,0,0,1,2,0,0,0,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,Data Engineer
+9b4683797d40385f,Visa,Financial Services,Data Engineer,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+6a9ed82164258f19,SciPlay,Software Development,Data Engineer,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+21b431871243e513,Braze,Information Technology,Data Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,Data Engineer
+59fe7c4c6b17e5cc,Marin Software,Information Technology,Data Engineer,0,0,0,0,0,0,0,0,11,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Engineer
+50ec5c46c75df88b,Hach,"Energy, Mining & Utilities",Data Engineer,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Data Engineer
+90836fd1bfed46f3,Jade Global,Information Technology Support Services,Data Engineer,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+f997059442b424bb,Yami,Restaurants & Cafes,Data Engineer,0,0,0,0,0,2,0,2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,Data Engineer
+c2174505b2d01d78,One Medical,Healthcare,Data Engineer,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+6f1bc79363eb2717,Lambda,Commercial Printing,Data Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,1,0,0,0,0,0,Data Engineer
+7d9017b8d513dc15,Equinix,Information Technology,Data Engineer,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,Data Engineer
+eb325a7bad45a920,Equinix,Information Technology,Data Engineer,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Engineer
+35361b502d3ab352,Hewlett Packard Enterprise,Information Technology,Data Engineer,0,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,Data Engineer
+5d3f61d7a6b713ce,Sam's Club,Retail & Wholesale,Data Engineer,0,0,1,0,0,1,0,1,1,0,0,0,2,0,0,0,0,1,0,0,2,0,3,0,0,0,0,0,0,0,0,0,0,Data Engineer
+b3ba5834d80aea65,Hoag Memorial Hospital Presbyterian,Healthcare,Data Engineer,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Engineer
+23b5b658ba5d4bfe,Walmart,Retail & Wholesale,Data Engineer,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,Data Engineer
+78d9e499bd43fd5b,Chegg,Information Technology,Data Engineer,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,4,0,0,0,0,0,0,0,0,0,0,Data Engineer
+c9a157d9f9a752ca,Ankura,Management & Consulting,Data Engineer,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Data Engineer
+dc413df43ce00948,Unity Technologies,Information Technology,Data Engineer,0,0,1,0,1,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Data Engineer
+9c6ecd44f96e3d1f,Genentech,Pharmaceutical & Biotechnology,Data Engineer,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,1,1,0,0,0,1,0,0,Data Engineer
+3abd66db3915ca23,Oracle,Information Technology,Data Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+087f0850b3f5d3e7,Harley Ellis Devereaux,,Data Engineer,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+355955002d601f66,Harley Ellis Devereaux,,Data Engineer,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+0604b12790fa214e,EXECUTIVE PERSONNEL SERVICES INC,Human Resources & Staffing,Data Engineer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,Data Engineer
+13e3b31a52caae1f,Predicine,Medical Testing & Clinical Laboratories,Data Engineer,0,1,0,0,1,1,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,Data Engineer
+83cff6a258781abc,Red Canyon Engineering & Software,,Data Engineer,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Data Engineer
+3497c7dfcaa7c566,PDI,Healthcare,Data Engineer,0,0,1,0,0,0,0,9,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Data Engineer
+768615bcbbf65637,Sumo Logic,Information Technology,Data Engineer,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+a888f997402bbe6c,PepsiCo,Retail & Wholesale,Data Engineer,1,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Data Engineer
+537ad6d3398bab80,Comcast,Telecommunications,Data Engineer,0,0,0,0,0,2,0,1,2,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+2d3ee28fa5348894,Charles Schwab,Financial Services,Data Engineer,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+51d69267c2d979af,Linux Foundation,Nonprofit & NGO,Data Engineer,1,1,0,0,1,1,1,2,0,0,0,0,2,0,0,0,0,0,3,0,0,0,1,0,0,2,0,3,0,0,0,0,2,Data Engineer
+80fef242ab8f7943,Microsoft,Information Technology,Data Engineer,0,0,0,1,0,0,0,6,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,Data Engineer
+401efe4840cd7a2b,Munich Re America Services,Insurance,Data Engineer,1,1,1,0,0,1,0,4,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Data Engineer
+242ee36cef76cfdc,Spacee,,Data Engineer,0,0,1,0,0,3,1,1,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+b04d2945b9dff29b,Connectedx Inc.,Software Development,Data Engineer,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+0fd2c04ed5d45789,Unite Us,Healthcare,Data Engineer,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,2,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+f8f14989b8e7e281,Credit Sesame,Financial Services,Data Engineer,0,0,1,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Data Engineer
+d3f0b7b4c342731f,Bosch Group,,Data Engineer,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,2,0,0,0,0,0,Data Engineer
+162e667edfb44ded,"J.C. Penney Corporation, Inc.",Retail & Wholesale,Data Engineer,0,0,1,0,1,2,0,1,1,0,2,0,3,0,0,0,0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,4,Data Engineer
+78294ad9b8c69074,SchoolsFirst FCU,Financial Services,Data Engineer,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+2a4ec8950b790d9d,LOCKHEED MARTIN CORPORATION,,Data Engineer,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+e74b14b2cdfcee09,"Cinemark USA, Inc",Media & Communication,Data Engineer,1,0,1,0,0,0,0,5,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+d23201819cb1d777,"Helmerich & Payne, Inc.","Energy, Mining & Utilities",Data Engineer,0,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,Data Engineer
+b0e61b07cbcf0f8d,GFT Technologies SE,Information Technology,Data Engineer,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+8c3e57a7245f0545,1010data,Information Technology,Data Engineer,0,0,0,0,1,4,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+1a867cc2acf75ec0,Thrive Market,Retail & Wholesale,Data Engineer,0,0,1,2,0,1,0,1,1,0,0,0,2,0,0,0,0,1,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+060fa56db36acb41,The New York Times,Media & Communication,Data Engineer,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,2,3,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,Data Engineer
+ce4e48c1dc286fc3,Away Travel,Hotels & Travel Accommodation,Data Engineer,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+8301c221dc812051,Carrot Fertility,Healthcare,Data Engineer,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+aaefa2a9b03135c9,Seniorly,,Data Engineer,0,0,0,0,1,1,1,3,0,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+489906f59f3fb70c,Google,Information Technology,Data Engineer,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+a57f8b6a06f68771,TripleLift,Media & Communication,Data Engineer,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0,6,0,0,0,0,0,0,0,0,0,0,Data Engineer
+15ec857974672fac,Rocket Lawyer,National Agencies,Data Engineer,0,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,1,0,0,0,0,0,Data Engineer
+9d0ae0e42f0ff616,Balsam Brands,Retail & Wholesale,Data Engineer,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer
+dd3c3c2070c58d03,Wework,Management & Consulting,Data Engineer,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,1,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+76cca71b1d54ddb8,"Tyler Technologies, Inc.",Information Technology,Data Engineer,0,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,Data Engineer
+2133924944335ed8,Tekrek Solutions,,Data Engineer,0,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Data Engineer
+22413d50122fe27c,VMware,Information Technology,Data Engineer,0,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,0,0,2,0,0,0,3,0,0,0,0,1,0,0,0,0,0,Data Engineer
+6c7d70f2b9eeb28a,Verizon,Telecommunications,Data Engineer,1,2,1,0,0,2,1,4,1,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,1,0,0,0,1,1,0,0,Data Engineer
+47ec81e82915a55b,ParkourSC,,Data Engineer,0,0,0,0,0,3,0,3,0,0,0,0,1,0,0,0,0,0,2,1,0,0,4,0,0,5,0,0,0,0,0,0,0,Data Engineer
+f4829616c35be6b0,ServiceNow,Information Technology,Data Engineer,0,0,1,0,0,0,0,3,1,0,0,0,2,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Data Engineer

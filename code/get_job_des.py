@@ -6,6 +6,9 @@ import numpy as np
 import time
 import os
 
+JOB_TITLE = input("Please enter a job title (Data Analyst/ Data Scientist/ Data Engineer): ")
+
+
 def merge_all_files():
     ''' Merge all output files from get_searched_job_html.py, return a dataframe and save it as csv'''
     df_merge = pd.DataFrame(columns=['Page', 'HTML', 'Title', 'Location'])
@@ -40,7 +43,7 @@ def get_jid_list(df_merge):
     jid_lo_dic = {}
     jid_title_dic = {}
     
-    for row in range(len(df_merge) - 1):
+    for row in range(len(df_merge)):
         html = BeautifulSoup(df_merge['HTML'][row],'html.parser')
         script = html.find("script", text=lambda text: text and "var jobKeysWithInfo" in text).text
         for line in script.split('\n'):
@@ -64,19 +67,18 @@ def get_jid_list(df_merge):
 
 
 
-def select_300_job_postings():
+def select_100_job_postings():
     '''Return a dataframe that randomly select 100 job postings in 3 different job(DA,DS,DE).'''
 
-    df_da = jid_lo_title_df.loc[jid_lo_title_df['Title'] == 'Data Analyst'].sample(n = 100)
-    df_ds = jid_lo_title_df.loc[jid_lo_title_df['Title'] == 'Data Scientist'].sample(n = 100)
-    df_de = jid_lo_title_df.loc[jid_lo_title_df['Title'] == 'Data Engineer'].sample(n = 100)
-    df_merge_select_300 = pd.concat([df_da, df_ds,df_de])
-
-    return df_merge_select_300.reset_index()
+    
+    df_ramdom_select_100 = jid_lo_title_df.loc[jid_lo_title_df['Title'] == JOB_TITLE].sample(n = 100)
 
 
+    return df_ramdom_select_100.reset_index()
 
-def sleeper(min_sleep_sec, max_sleep_sec): # 10.166, 300.233
+
+
+def sleeper(min_sleep_sec, max_sleep_sec): 
     '''Give a random sleep time between min_sleep_sec and max_sleep_sec.'''
     time_splits = np.linspace(min_sleep_sec, max_sleep_sec, num=60)
     alarm = np.random.choice(time_splits)
@@ -89,19 +91,26 @@ def sleeper(min_sleep_sec, max_sleep_sec): # 10.166, 300.233
 
 def get_job_des_html(df_merge_select_300):
     '''Get every job description from the jid_list, and save it into a csv file.'''
-    job_des_html = {}
+    job_des_html_dic = {}
+    success_counts = 1
     for jid in list(df_merge_select_300['jid']):
         job_des_url = 'https://www.indeed.com/viewjob?jk=' + jid
         job_des_response=requests.get(job_des_url)
         job_des_html=BeautifulSoup(job_des_response.text,'html.parser')
-        job_des_html[jid] = job_des_html
+        job_des_html_dic[jid] = job_des_html
         
-        sleeper(10.9866, 20.99999)
         
-    df_job_des_html = pd.DataFrame(list(job_des_html.items()))
-    df_job_des_html.columns = ['jid', 'HTML']
+        print(success_counts)
 
-    output_path = os.path.join("data", "job_des_html.csv")
+        sleeper(10.9866, 30.99999)
+
+        success_counts += 1
+
+        
+    df_job_des_html = pd.DataFrame(list(job_des_html_dic.items()))
+    df_job_des_html.columns = ['jid', 'HTML']
+    file_name =  "job_des_html_" + JOB_TITLE + ".csv"
+    output_path = os.path.join("data", file_name)
     df_job_des_html.to_csv(output_path, index = False)
 
 
@@ -111,5 +120,5 @@ def get_job_des_html(df_merge_select_300):
 if __name__ == "__main__":
     df_merge = merge_all_files()
     jid_lo_title_df = get_jid_list(df_merge)    
-    df_merge_select_300 = select_300_job_postings()
+    df_merge_select_300 = select_100_job_postings()
     df_job_des_html = get_job_des_html(df_merge_select_300)
