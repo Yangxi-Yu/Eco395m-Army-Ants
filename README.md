@@ -51,5 +51,6 @@ Run python3 code/get_searched_job_html.py and enter position, location, date ran
 |Data Scientist_Texas_30.csv|Data Scientist, Texas, 30, date|
 |Data Scientist_California_30.csv|Data Scientist, California, 30, date|
 |Data Scientist_New York State_30.csv|Data Scientist, New York State, 30, date|
+
 Part (2) Clean HTML csv file, and saved the cleaned file in csv.
 3. Analyze and visualize cleaned data
