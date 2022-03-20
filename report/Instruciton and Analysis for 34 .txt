@@ -1,15 +1,14 @@
 Analysis:
 
 3-1:
-The table shows the top 20 companies that posted data jobs in California, New York State, and Texas in the last 30 days. Among them JPMorgan Chase Bank (76) , Visa (56) , Deloitte (54) are at the top.
+The table shows the top 20 companies that posted data jobs in California, New York State, and Texas in the last 30 days. Among them, JPMorgan Chase Bank (76) , Visa (56) , Deloitte (54) are at the top.
 
 3-2:
-This diagram shows the top 5 companies in terms of the number of job postings for the positions Data Analyst, Data Engineer, and Datra Scientist.
+This diagram shows the top 5 companies in terms of the number of job postings for the positions Data Analyst, Data Engineer, and Data Scientist.
 At JPMorgan Chase Bank and Citi, the job title with the highest demand is Data Analyst.
 At Visa, the job title with the highest demand is Data Engineer.
 At Deloitte, the number of Data Analyst and Data Engineer job postings is similar, ranging from 20-25.
 At Amazon.com Services LLC, the most in-demand position is Data Scientist.
-
 
 
 
