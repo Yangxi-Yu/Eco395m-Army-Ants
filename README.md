@@ -19,10 +19,14 @@ This program mainly uses quantitative method to analysis the data science job ma
 * It uses matplotlib to create plots and figures to visualize the relationships between the data related jobs and skills, locations, companies, industries, and salary.
 ## Findings
 ### 1. Skill & Job
-![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d2db66b13fb6d1aea95917de6835a078ce1021e2/figure/Figure1-1.jpg)
-![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-2.jpg)
-![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-3.jpg)
+
 ![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/aac3068ba57b9a1e2131d5f4dff233c5873e9c79/figure/figure1.jpg)
+
+![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d2db66b13fb6d1aea95917de6835a078ce1021e2/figure/Figure1-1.jpg)
+
+![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-2.jpg)
+
+![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-3.jpg)
 
 * For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
 * For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Spark. 
@@ -76,7 +80,9 @@ Specifically, in California, the number of Data Analyst and Data Scientist jobs 
 ### 5. Salary & Job
 ![Salaries Among Three Categories in Three Locations](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/ae18d189fcc3231153a84e0ea696dfc482399727/figure/figure5-1.png)
 * In any of the three job categories, salaries of data engineers and data scientists are significantly higher than data analysts. From the general perspective, workers in California and New York earns more than those in Texas.
+
 ![Salaries in Three Locations Between Three Job Categories](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/ae18d189fcc3231153a84e0ea696dfc482399727/figure/figure5-2.png)
+
 * The box plots show the distribution of salaries of different job categories in different states, especially they can show the discrete values.
 * Although the average salary of data analysts is lower than the other two, there also exist several working opportunities to earn quite high, about 250000.
 * The average salary of data engineers is high and there are also several works earning very high, so earnings of data engineers are very high, which may mean that this job needs relatively high ability.
@@ -101,7 +107,7 @@ This project has four limitations in data resource: limited data quantity, ambig
 * According to the exist conclusion, this project intends to provide some useful advice for those economic students who has the willingness to seek data related career. 
 
 ## Instructions
-### 0. Instructions
+### 0. Installation
 Run `pip install -r requirements.txt`
 ### 1. Data Scrape and Clean
 #### Output:`data/merged_searched_job_html.csv`
@@ -161,7 +167,7 @@ Run `merge_job_desc_info.py` which helps merge all 6 files in section 3-1 and 3-
 
 
 ### 4. Analyze and visualize cleaned data
-Run analysis_plot.ipynb and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
+Run `analysis_plot.ipynb` and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
 
 Figure 1: 
 Use pandas, matplot and wordcloud for this section.
