@@ -3,11 +3,12 @@ from bs4 import BeautifulSoup
 import re
 import os
 
-JOB_TITLE = input("Please enter a job title (Data Analyst/ Data Scientist/ Data Engineer): ")
-INPUT_FILE = "job_des_html_" + JOB_TITLE + ".csv"
-OUTPUT_FILE = "job_skills_counts_" + JOB_TITLE + ".csv"
-INPUT_PATH = os.path.join("data", INPUT_FILE)
-OUTPUT_PATH = os.path.join("data", OUTPUT_FILE)
+JOB_TITLE = input('Please enter a job title (Data Analyst/ Data Scientist/ Data Engineer): ')
+INPUT_FILE = 'job_des_html_' + JOB_TITLE + '.csv'
+OUTPUT_FILE = 'job_skills_counts_' + JOB_TITLE + '.csv'
+INPUT_PATH = os.path.join('data', INPUT_FILE)
+OUTPUT_PATH = os.path.join('data', OUTPUT_FILE)
+
 skill_list = [
     'math',
     'statistics',
@@ -44,7 +45,7 @@ skill_list = [
     'Hive']
 
 def get_lowercase_skill_list(skill_list):
-
+    '''Lowercase all the words in skill list.'''
     cleaned_skill_list = []
     for skill in skill_list:
         cleaned_skill_list.append(skill.lower())
@@ -55,7 +56,7 @@ def get_lowercase_skill_list(skill_list):
 
 
 def get_job_des_scripts(INPUT_PATH):
-
+    '''Clean HTML file and generate the job description part, return a dataframe that contains job id and job description.'''
     df_job_des_html = pd.read_csv(INPUT_PATH)
     jid_scripts_dict = {}
     
@@ -99,7 +100,7 @@ def job_des_lines(jid_scripts_df):
 
 
 def count_job_des_skills(cleaned_skill_list, job_des_lines_df):
-    
+    '''Count the number of words in each job description, return a dataframe that contains job id and all skill counts.'''
     
     df = pd.DataFrame(columns = cleaned_skill_list + ['jid'])
     
@@ -127,7 +128,7 @@ def count_job_des_skills(cleaned_skill_list, job_des_lines_df):
 
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     cleaned_skill_list = get_lowercase_skill_list(skill_list)
     jid_scripts_df = get_job_des_scripts(INPUT_PATH)
     job_des_lines_df = job_des_lines(jid_scripts_df)

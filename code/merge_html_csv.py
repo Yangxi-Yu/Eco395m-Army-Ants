@@ -18,7 +18,7 @@ def merge_all_files():
 
   
     for file in file_list:
-        file_path = os.path.join("data", file)
+        file_path = os.path.join('data', file)
         df_file = pd.read_csv(file_path)
         df_file['Title'] = file.split('_')[0]
         df_file['Location'] = file.split('_')[1]
@@ -27,12 +27,12 @@ def merge_all_files():
 
     df_merge.reset_index()
 
-    output_path = os.path.join("data", "merged_searched_job_html.csv")
+    output_path = os.path.join('data', 'merged_searched_job_html.csv')
     df_merge.to_csv(output_path, index = False)
     
     return df_merge.reset_index()
 
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     merge_all_files()

@@ -6,7 +6,7 @@ import numpy as np
 import time
 import os
 
-JOB_TITLE = input("Please enter a job title (Data Analyst/ Data Scientist/ Data Engineer): ")
+JOB_TITLE = input('Please enter a job title (Data Analyst/ Data Scientist/ Data Engineer): ')
 
 
 def merge_all_files():
@@ -26,7 +26,7 @@ def merge_all_files():
 
   
     for file in file_list:
-        file_path = os.path.join("data", file)
+        file_path = os.path.join('data', file)
         df_file = pd.read_csv(file_path)
         df_file['Title'] = file.split('_')[0]
         df_file['Location'] = file.split('_')[1]
@@ -45,11 +45,11 @@ def get_jid_list(df_merge):
     
     for row in range(len(df_merge)):
         html = BeautifulSoup(df_merge['HTML'][row],'html.parser')
-        script = html.find("script", text=lambda text: text and "var jobKeysWithInfo" in text).text
+        script = html.find('script', text=lambda text: text and 'var jobKeysWithInfo' in text).text
         for line in script.split('\n'):
             if line.startswith('jobKeysWithInfo'):
-                if find_jid.search(line.replace("'", "")):
-                    jid = find_jid.search(line.replace("'", "")).group(2)
+                if find_jid.search(line.replace("'", '')):
+                    jid = find_jid.search(line.replace("'", '')).group(2)
                     
                     jid_lo_dic[jid] = df_merge['Location'][row]
                     jid_title_dic[jid] = df_merge['Title'][row]
@@ -100,7 +100,7 @@ def get_job_des_html(df_merge_select_300):
         job_des_html_dic[jid] = job_des_html
         
         
-        print(success_counts)
+        print(str(success_counts) + ' job(s) succeeded.')
 
         sleeper(10.9866, 30.99999)
 
@@ -109,15 +109,15 @@ def get_job_des_html(df_merge_select_300):
         
     df_job_des_html = pd.DataFrame(list(job_des_html_dic.items()))
     df_job_des_html.columns = ['jid', 'HTML']
-    file_name =  "job_des_html_" + JOB_TITLE + ".csv"
-    output_path = os.path.join("data", file_name)
+    file_name =  'job_des_html_' + JOB_TITLE + '.csv'
+    output_path = os.path.join('data', file_name)
     df_job_des_html.to_csv(output_path, index = False)
 
 
 
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     df_merge = merge_all_files()
     jid_lo_title_df = get_jid_list(df_merge)    
     df_merge_select_300 = select_100_job_postings()
