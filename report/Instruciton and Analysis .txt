@@ -15,7 +15,12 @@ At Deloitte, the number of Data Analyst and Data Engineer job postings is simila
 At Amazon.com Services LLC, the most in-demand position is Data Scientist.
 
 Figure 4:
-In this section, we focus on the distribution of job numbers in three titles among different industries and we select top five industries. In general, we can see the total number of jobs in information technology is far ahead of jobs in other industries. To be specific, apart from information industry, health care is eager for employing many jobs for data analysts. Every industry needs a lot of jobs for data engineers since every company requires many technicians or programmers to develop data and deal with big data. Last, there are relatively many jobs for data scientists in financial services, healthcare and information technology. This also makes sense since data scientists may be resonsible for evaluating differnet models and abstracting their commericial values and providing suggestions, which are important for helath or financial analyses and model selection among information technology.
+In this section, we focus on the distribution of job numbers in three titles among different industries and we select top five industries. 
+In general, we can see the total number of jobs in information technology is far ahead of jobs in other industries. 
+To be specific, apart from information industry, health care is eager for employing many jobs for data analysts. 
+Every industry needs a lot of jobs for data engineers since every company requires many technicians or programmers to develop data and deal with big data. 
+Last, there are relatively many jobs for data scientists in financial services, healthcare and information technology. 
+This also makes sense since data scientists may be resonsible for evaluating differnet models and abstracting their commericial values and providing suggestions, which are important for helath or financial analyses and model selection among information technology.
 
 Figure 5-1:
 In any of the three job categories, salaries of data engineers and data scientists are significantly higher than data analysts.
