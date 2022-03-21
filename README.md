@@ -96,6 +96,8 @@ This project has four limitations in data resource: limited data quantity, ambig
 Run `pip install -r requirements.txt`
 ### 1. Data Scrape and Clean
 #### Step 1. Get Searched Job List HTML
+#### Output:`data/merged_searched_job_html.csv`
+
 Run `python3 code/get_searched_job_html.py` and enter position, location, date range, sort to scrape the job list html in the [indeed](https://www.indeed.com/jobs?q=data%20analyst&l=Austin) website. In this project, here are all the files that need to be generated in this step:
 
 |Generate Files|Parameters Entered|
@@ -111,8 +113,19 @@ Run `python3 code/get_searched_job_html.py` and enter position, location, date r
 |Data Scientist_New York State_30.csv|Data Scientist, New York State, 30, date|
 
 Run ```python3 code/merge_html_csv.py```, which merges csv files in step 1 and add `Title` and `Location `columns. The output file is `data/merged_searched_job_html.csv`.
-* Note: Since the generated file is larger than 100M which cannot be uploaded in GitHub, please run the python script and generate it locally *
-### 3. Analyze and visualize cleaned data
+*Note: Since the generated file is larger than 100M which cannot be uploaded in GitHub, please run the python script and generate it locally*
+#### Step 2. Randomly select 100 jobs in each job titles (Data Analyst, Data Engineer, Data Scientist) and get their job description HTML
+Run `python3 code/get_job_des.py` and enter a job title (Data Analyst/ Data Scientist/ Data Engineer) to get the selected 300 job descriptions. Here are all the files that need to be generated:
+|Generate Files|Parameters Entered|
+|--------------|------------------|
+|data/job_des_html_Data Analyst.csv|Data Analyst|
+|data/ job_des_html_Data Engineer.cs|Data Engineer|
+|data/job_des_html_Data Scientist.csv|Data Scientist|
+
+### 2. Clean HTML files that generated in section 1-1 and get basic information for each job
+### 3. Clean HTML files that generated in section 1-2 and get detailed information for each job
+output:
+### 4. Analyze and visualize cleaned data
 Run analysis_plot.ipynb and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
 
 Figure 1: 
