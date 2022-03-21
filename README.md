@@ -24,13 +24,15 @@ This program mainly uses quantitative method to analysis the data science job ma
 
 ![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d2db66b13fb6d1aea95917de6835a078ce1021e2/figure/Figure1-1.jpg)
 
+* For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
+
 ![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-2.jpg)
+
+* For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Spark.
 
 ![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-3.jpg)
 
-* For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
-* For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Spark. 
-* For data scientists, Python, Power BI and Cloud are the most required skills, follwing by Statistics ML, SQL.
+* For data scientists, Python, AI and Cloud are the most required skills, follwing by Statistics ML, SQL.
 
 ### 2. Location & Job Vacancies
 ![The Number of Jobs of Each Category in Three States](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/e8e00ded4b6da2bbe58f23e733481bae1539f5dd/figure/figure2.png)
