@@ -27,11 +27,10 @@ In any of the three job categories, salaries of data engineers and data scientis
 From the general perspective, workers earn more in California and New York than those in Texas.
 
 Figure 5-2:
-The box plots show the distribution of salaries of different job categories in different states, especially they can show the discrete values.
-Although the average salary of data analysts is lower than the other two, there also exist several working opportunities to earn quite high, about 250000.
-The average salary of data engineers is high and there are also several works earning very high, so earnings of data engineers are very high, which may mean that this job needs relatively high ability.
+The box charts show the wage distribution of different job categories in different states, and in particular can show discrete values.
+While the average salary of a data analyst is lower than that of the other two, there are several higher-paying job opportunities, around 250,000.
+The average salary of data engineer is higher, and there are several jobs that pay very well. Therefore, the earnings of data engineers are very high, which may mean that the job requires relatively high level of ability.
 The distribution of salary of data scientists is relatively narrower than the other two, which may mean this job type provides a steady work.
-
 
 Instruction:
 Run analysis_plot.ipynb and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
