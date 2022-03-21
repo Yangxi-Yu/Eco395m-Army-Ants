@@ -8,12 +8,12 @@
 * Chen Tang
 * Liming Pang
 ## Data Source 
-The raw data comes from the Indeed website. 
-LINK:
+The raw data comes from the [Indeed](https://www.indeed.com) website. 
 ## Goal of the Analysis
 The goal of this project is to provide an overview of data science related jobs in Texas, California, and New York. Data science is a fascinating, thriving, and well-paid field. Data scientists are needed in practically every domain: business, finance, science, health, and the public sector. According to our career placement report, many alumni choose to work in data related filed. Therefore, this project intends to provide some information for econ students to help prepared themselves and find satisfying jobs.
 ## Methodology
 This program mainly uses quantitative method to analysis the data science job market. 
+![Methodology](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/dec05c5129d3f778afbd7f1b442bf4365fd1226c/figure/Methodology.png)
 * It uses data crawling to get job descriptions of data science from indeed.
 * It uses Pandas to clean and reorganize raw data, and then generates a csv with six columns including job id, job title, company name, location, salary, and job rating.
 * It uses matplotlib to create plots and figures to visualize the relationships between the data related jobs and skills, locations, companies, industries, and salary.
@@ -22,7 +22,7 @@ This program mainly uses quantitative method to analysis the data science job ma
 ![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d2db66b13fb6d1aea95917de6835a078ce1021e2/figure/Figure1-1.jpg)
 ![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-2.jpg)
 ![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-3.jpg)
-![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/figure1.png)
+![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/aac3068ba57b9a1e2131d5f4dff233c5873e9c79/figure/figure1.jpg)
 
 * For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
 * For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Spark. 
@@ -73,6 +73,15 @@ Specifically, in California, the number of Data Analyst and Data Scientist jobs 
 * This section focuses on the distribution of job numbers in three titles among different industries and top five industries.
 * The total number of jobs in information technology is far ahead of jobs in other industries. Apart from information industry, health care is eager for employing many jobs for data analysts. 
 * There are relatively many jobs for data scientists in financial services, healthcare and information technology. It makes sense since data scientists may be resonsible for evaluating differnet models and abstracting their commericial values and providing suggestions, which are important for helath and financial analyses and model selection among information technology.
+### 5. Salary & Job
+![Salaries Among Three Categories in Three Locations](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/ae18d189fcc3231153a84e0ea696dfc482399727/figure/figure5-1.png)
+* In any of the three job categories, salaries of data engineers and data scientists are significantly higher than data analysts. From the general perspective, workers in California and New York earns more than those in Texas.
+![Salaries in Three Locations Between Three Job Categories](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/ae18d189fcc3231153a84e0ea696dfc482399727/figure/figure5-2.png)
+* The box plots show the distribution of salaries of different job categories in different states, especially they can show the discrete values.
+* Although the average salary of data analysts is lower than the other two, there also exist several working opportunities to earn quite high, about 250000.
+* The average salary of data engineers is high and there are also several works earning very high, so earnings of data engineers are very high, which may mean that this job needs relatively high ability.
+* The distribution of salary of data scientists is relatively narrower than the other two, which may mean this job type provides a steady work.
+
 
 ## Limitations
 ### Data 
@@ -95,9 +104,8 @@ This project has four limitations in data resource: limited data quantity, ambig
 ### 0. Instructions
 Run `pip install -r requirements.txt`
 ### 1. Data Scrape and Clean
-#### Step 1. Get Searched Job List HTML
 #### Output:`data/merged_searched_job_html.csv`
-
+#### Step 1. Get Searched Job List HTML
 Run `python3 code/get_searched_job_html.py` and enter position, location, date range, sort to scrape the job list html in the [indeed](https://www.indeed.com/jobs?q=data%20analyst&l=Austin) website. In this project, here are all the files that need to be generated in this step:
 
 |Generate Files|Parameters Entered|
@@ -113,6 +121,7 @@ Run `python3 code/get_searched_job_html.py` and enter position, location, date r
 |Data Scientist_New York State_30.csv|Data Scientist, New York State, 30, date|
 
 Run ```python3 code/merge_html_csv.py```, which merges csv files in step 1 and add `Title` and `Location `columns. The output file is `data/merged_searched_job_html.csv`.
+
 *Note: Since the generated file is larger than 100M which cannot be uploaded in GitHub, please run the python script and generate it locally*
 #### Step 2. Randomly select 100 jobs in each job titles (Data Analyst, Data Engineer, Data Scientist) and get their job description HTML
 Run `python3 code/get_job_des.py` and enter a job title (Data Analyst/ Data Scientist/ Data Engineer) to get the selected 300 job descriptions. Here are all the files that need to be generated:
@@ -123,8 +132,34 @@ Run `python3 code/get_job_des.py` and enter a job title (Data Analyst/ Data Scie
 |data/job_des_html_Data Scientist.csv|Data Scientist|
 
 ### 2. Clean HTML files that generated in section 1-1 and get basic information for each job
+#### Output:`basic_info.csv`
+Run `python3 html_dataframe.py` to generate `basic_info.csv` with information of job_id, salary, ratings, company, specific location and specific title.
+|Generate Files|Parameters Entered|
+|--------------|------------------|
+|data/basic_list.csv|data/merged_searched_job_html.csv|
+
 ### 3. Clean HTML files that generated in section 1-2 and get detailed information for each job
-output:
+#### Output:`job_desc_info.csv`
+#### Step 1. Get industry information based on the files that generated in section 1-2
+Run `python3 code/get_industry.py` and enter a job title (Data Analyst/ Data Scientist/ Data Engineer) to fetch industry information for all the jobs in section 1-2. Here are the output files:
+|Generate Files|Parameters Entered|
+|--------------|------------------|
+|data/job_industry_Data Analyst.csv|Data Analyst|
+|data/ job_industry_Data Engineer.csv|Data Engineer|
+|data/ job_industry_Data Scientist.csv|Data Scientist|
+
+#### Step 2. Get skill keywords counts based on the files that generated in section 1-2
+Run `python3 code/get_skills_list.py` and enter a job title (Data Analyst/ Data Scientist/ Data Engineer) to get skill keywords counts in the job description for all the jobs in section 1-2. Here are the output files:
+|Generate Files|Parameters Entered|
+|--------------|------------------|
+|data/job_skills_counts_Data Analyst.csv|Data Analyst|
+|data/job_skills_counts_Data Engineer.csv|Data Engineer|
+|data/job_skills_counts_Data Scientist.csv|Data Scientist|
+
+#### Step 3. Merged all the files generated from section 3-1 and 3-2
+Run `merge_job_desc_info.py` which helps merge all 6 files in section 3-1 and 3-2. The output file is `data/job_desc_info.csv`.
+
+
 ### 4. Analyze and visualize cleaned data
 Run analysis_plot.ipynb and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
 
@@ -176,3 +211,13 @@ Use pandas and matplot for this section.
 (d) Make the barplot of the number of jobs in each category posted by the top five industries, horizontalling the bar plot.
 (e) Name the plot, x axis and y axis.
 (f) Reorder the y axis. In other words, the industry with the most job posted should appear first.
+
+Figure 5-1:
+Use pandas, matplot for this section.
+(a) Use the modified dataframe to group data by location and job title, and make the salary as mean values, then make a bar plot.
+(b) Name the plot, x axis and y axis.
+
+Figure 5-2:
+Use pandas, matplot and sns for this section.
+(a) Similarly, group data by location, set x axis as job title and y axis as salary, and then make a box plot.
+(b) Nmae the plot, x axis and y axis.
