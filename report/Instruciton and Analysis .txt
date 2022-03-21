@@ -24,7 +24,7 @@ This also makes sense since data scientists may be resonsible for evaluating dif
 
 Figure 5-1:
 In any of the three job categories, salaries of data engineers and data scientists are significantly higher than data analysts.
-From the general perspective, workers in California and New York earns more than those in Texas.
+From the general perspective, workers earn more in California and New York than those in Texas.
 
 Figure 5-2:
 The box plots show the distribution of salaries of different job categories in different states, especially they can show the discrete values.
