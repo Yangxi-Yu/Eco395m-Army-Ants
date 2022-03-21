@@ -43,6 +43,15 @@ Use pandas, matplot and wordcloud for this section.
 (ii) Sort skill numbers and select the top 10 skills.
 (iii) Draw a pie plot for that modified dataframe.
 (c) Make pie plot of top 10 skills for data scientists:
+(1) Make pie plot of top 10 skills for data analysts: 
+(i) Select the 'Data Analyst' column and create a new dataframe.
+(ii) Sort skill numbers and select the top 10 skills.
+(iii) Draw a pie plot for that modified dataframe.
+(2) Make pie plot of top 10 skills for data engineers:
+(i) Select the 'Data Engineers' column and create a new dataframe.
+(ii) Sort skill numbers and select the top 10 skills.
+(iii) Draw a pie plot for that modified dataframe.
+(3) Make pie plot of top 10 skills for data scientists:
 (i) Select the 'Data Scientist' column and create a new dataframe. 
 (ii) Sort skill numbers and select the top 10 skills.
 (iii) Draw a pie plot for that modified dataframe.
@@ -86,3 +95,4 @@ Figure 5-2:
 Use pandas, matplot and sns for this section.
 (a) Similarly, group data by location, set x axis as job title and y axis as salary, and then make a box plot.
 (b) Nmae the plot, x axis and y axis.
+

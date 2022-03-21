@@ -1,0 +1,14 @@
+Analysis:
+
+2:
+Overall, California has the highest number of Data jobs posted. Of the three states, Data Analyst has the highest number of jobs posted, with 800 or more, and Data Engineer has the lowest number of jobs.
+Specifically,  in California,  the number of Data Analyst and Data Scientist jobs posted is about the same, at 800 or more.
+New York State has the highest number of Data Analyst jobs, with a large gap between the number of Data Engineer and Data Scientist jobs.The number of Data Engineer jobs posted in the three states is the lowest, at about 200.
+Texas also posted the largest number of Data Analysts, with a large gap with the number of Data Engineer and Data Scientist.
+
+
+Instruction:
+2:
+Use pandas and matplot for this section.
+(a) Count the jobs for each category and location combination.
+(b) Make a bar plot of the number of jobs of each category in three states. Name the plot, x axis and y axis.
