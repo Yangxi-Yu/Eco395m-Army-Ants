@@ -22,7 +22,7 @@ This program mainly uses quantitative method to analysis the data science job ma
 ![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d2db66b13fb6d1aea95917de6835a078ce1021e2/figure/Figure1-1.jpg)
 ![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-2.jpg)
 ![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-3.jpg)
-![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-3.jpg)
+![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/figure1.png)
 
 * For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
 * For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Spark. 
@@ -92,8 +92,11 @@ This project has four limitations in data resource: limited data quantity, ambig
 * According to the exist conclusion, this project intends to provide some useful advice for those economic students who has the willingness to seek data related career. 
 
 ## Instructions
-### 2. Data Scrape and Clean
-Run ```python3 code/get_searched_job_html.py``` and enter position, location, date range, sort to scrape the job list html in the indeed website. In this project, please enter following parameters:
+### 0. Instructions
+Run `pip install -r requirements.txt`
+### 1. Data Scrape and Clean
+#### Step 1. Get Searched Job List HTML
+Run `python3 code/get_searched_job_html.py` and enter position, location, date range, sort to scrape the job list html in the [indeed](https://www.indeed.com/jobs?q=data%20analyst&l=Austin) website. In this project, here are all the files that need to be generated in this step:
 
 |Generate Files|Parameters Entered|
 |--------------|------------------|
@@ -107,7 +110,8 @@ Run ```python3 code/get_searched_job_html.py``` and enter position, location, da
 |Data Scientist_California_30.csv|Data Scientist, California, 30, date|
 |Data Scientist_New York State_30.csv|Data Scientist, New York State, 30, date|
 
-Part (2) Clean HTML csv file, and saved the cleaned file in csv.
+Run ```python3 code/merge_html_csv.py```, which merges csv files in step 1 and add `Title` and `Location `columns. The output file is `data/merged_searched_job_html.csv`.
+* Note: Since the generated file is larger than 100M which cannot be uploaded in GitHub, please run the python script and generate it locally *
 ### 3. Analyze and visualize cleaned data
 Run analysis_plot.ipynb and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
 
