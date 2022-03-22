@@ -23,11 +23,11 @@ This program mainly uses the quantitative method to analyze the data science job
 
 ![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/figure1-1.png)
 
-* For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
+* For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. <br />
 
 ![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/figure1-2.png)
 
-* For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Azure.
+* For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Azure. <br />
 
 ![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/figure1-3.png)
 
