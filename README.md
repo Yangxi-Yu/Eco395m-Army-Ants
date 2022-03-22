@@ -140,11 +140,11 @@ Run `python3 code/get_job_des.py` and enter a job title (Data Analyst/ Data Scie
 |data/job_des_html_Data Scientist.csv|Data Scientist|
 
 ### 2. Data Cleaning: clean HTML files that generated in section 1-1 to get basic information for each job
-#### Output:`basic_info.csv`
-Run `python3 html_dataframe.py` to generate `basic_info.csv` with information of job_id, salary, ratings, company, specific location and specific title.
+#### Output:[job_basic_info.csv](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/data/job_basic_info.csv)
+Run `python3 html_dataframe.py` to generate [job_basic_info.csv](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/data/job_basic_info.csv) with information of job_id, salary, ratings, company, specific location and specific title.
 |Generate Files|Parameters Entered|
 |--------------|------------------|
-|data/basic_list.csv|data/merged_searched_job_html.csv|
+|[data/job_basic_info.csv](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/data/job_basic_info.csv)|data/merged_searched_job_html.csv|
 
 ### 3. Data Cleaning: clean HTML files that generated in section 1-2 to get detailed information for each job
 #### Output:[job_desc_info.csv](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/422eb57683d040c95dd25c1106d54b4e39b9e998/data/job_desc_info.csv)
