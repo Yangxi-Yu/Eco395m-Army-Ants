@@ -118,7 +118,7 @@ Run `python3 code/get_searched_job_html.py` and enter position, location, date r
 
 |Generate Files|Parameters Entered|
 |--------------|------------------|
-|Data Analyst_Texas_30.csv|Data Analyst, Texas, 30, data|
+|Data Analyst_Texas_30.csv|Data Analyst, Texas, 30, date|
 |Data Analyst_California_30.csv|Data Analyst, California, 30, date|
 |Data Analyst_New York State_30.csv|Data Analyst, New York State, 30, date|
 |Data Engineer_Texas_30.csv|Data Engineer, Texas, 30, date|
