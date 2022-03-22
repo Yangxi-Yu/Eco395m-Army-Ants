@@ -110,9 +110,9 @@ This project has four limitations in data resource: limited data quantity, ambig
 
 ## Instructions
 ### 0. Installation
-*Please note that the data scraping process may take a lot of time, so, it’s better to skip this section and start reproduce process from section 2 – Data Cleaning.*
 Run `pip install -r requirements.txt`
-### 1. Data Scrape and Clean
+### 1. Data Scraping
+*Please note that the data scraping process may take a lot of time, so, it’s better to skip this section and start reproduce process from section 2 – Data Cleaning.*
 #### Output:`data/merged_searched_job_html.csv`
 #### Step 1. Get Searched Job List HTML
 Run `python3 code/get_searched_job_html.py` and enter position, location, date range, sort to scrape the job list html in the [indeed](https://www.indeed.com/jobs?q=data%20analyst&l=Austin) website. In this project, here are all the files that need to be generated in this step:
