@@ -9,43 +9,13 @@ OUTPUT_FILE = 'job_skills_counts_' + JOB_TITLE + '.csv'
 INPUT_PATH = os.path.join('data', INPUT_FILE)
 OUTPUT_PATH = os.path.join('data', OUTPUT_FILE)
 
-skill_list = [
-    'math',
-    'statistics',
-    'communication',
-    'presentation',
-    'collaboration',
-    'Python',
-    'R',
-    'SQL',
-    'Java',
-    'Stata',
-    'Tableau',
-    'curiosity',
-    'spark',
-    'excel',
-    'word',
-    'powerpoint',
-    'BI',
-    'ETL',
-    'aws',
-    'snowflake',
-    'writing',
-    'reading',
-    'cloud',
-    'matlab',
-    'AI',
-    'ML',
-    'c',
-    'linux',
-    'pytorch',
-    'NLP',
-    'pandas',
-    'matplotlib',
-    'Hive']
+SKILL_LIST_PATH = os.path.join('data', 'skill_list.csv')
 
-def get_lowercase_skill_list(skill_list):
+def get_lowercase_skill_list(SKILL_LIST_PATH):
     '''Lowercase all the words in skill list.'''
+    df_skill_list = pd.read_csv(SKILL_LIST_PATH)
+    skill_list = df_skill_list['Skills'].tolist()
+    
     cleaned_skill_list = []
     for skill in skill_list:
         cleaned_skill_list.append(skill.lower())
@@ -129,7 +99,7 @@ def count_job_des_skills(cleaned_skill_list, job_des_lines_df):
 
 
 if __name__ == '__main__':
-    cleaned_skill_list = get_lowercase_skill_list(skill_list)
+    cleaned_skill_list = get_lowercase_skill_list(SKILL_LIST_PATH)
     jid_scripts_df = get_job_des_scripts(INPUT_PATH)
     job_des_lines_df = job_des_lines(jid_scripts_df)
     count_job_des_skills(cleaned_skill_list, job_des_lines_df)
