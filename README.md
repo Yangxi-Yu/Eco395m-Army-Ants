@@ -147,7 +147,7 @@ Run `python3 html_dataframe.py` to generate `basic_info.csv` with information of
 |data/basic_list.csv|data/merged_searched_job_html.csv|
 
 ### 3. Data Cleaning: clean HTML files that generated in section 1-2 to get detailed information for each job
-#### Output:`job_desc_info.csv`
+#### Output:[job_desc_info.csv](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/422eb57683d040c95dd25c1106d54b4e39b9e998/data/job_desc_info.csv)
 #### Step 1. Get industry information based on the files that generated in section 1-2
 Run `python3 code/get_industry.py` and enter a job title (Data Analyst/ Data Scientist/ Data Engineer) to fetch industry information for all the jobs in section 1-2. Here are the output files:
 |Generate Files|Parameters Entered|
@@ -165,7 +165,7 @@ Run `python3 code/get_skills_list.py` and enter a job title (Data Analyst/ Data 
 |data/job_skills_counts_Data Scientist.csv|Data Scientist|
 
 #### Step 3. Merged all the files generated from section 3-1 and 3-2
-Run `python3 merge_job_desc_info.py` which helps merge all 6 files in section 3-1 and 3-2. The output file is `data/job_desc_info.csv`.
+Run `python3 merge_job_desc_info.py` which helps merge all 6 files in section 3-1 and 3-2. The output file is [data/job_desc_info.csv](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/422eb57683d040c95dd25c1106d54b4e39b9e998/data/job_desc_info.csv).
 
 
 ### 4. Analyze and visualize cleaned data
