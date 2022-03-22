@@ -6,7 +6,7 @@ import os
 
 OUTPUT_DIR = "data"
 input_file = os.path.join(OUTPUT_DIR,"merged_searched_job_html.csv")
-output_path = os.path.join(OUTPUT_DIR,"basic_info.csv")
+output_path = os.path.join(OUTPUT_DIR,"job_basic_info.csv")
 
 
 def job_rating(card):
@@ -27,19 +27,6 @@ def job_salary(card):
         except AttributeError:
             job_salary=''
     return job_salary
-
-def get_job_id(soup):
-    jid_list=[]
-    find_jid = re.compile(r'(jobKeysWithInfo\[([a-zA-Z0-9]{16})\])')
-    script = soup.find("script", text=lambda text: text and "var jobKeysWithInfo" in text).text
-    for row in script.split('\n'):
-            if row.startswith('jobKeysWithInfo'):
-                jid = find_jid.search(row.replace("'", ""))    
-                if jid:
-                    jid = find_jid.search(row.replace("'", "")).group(2)
-                    jid_list.append(jid)
-    return jid_list
-
 
 def clean_salary(df_basic):
     resultlist=[]
@@ -63,6 +50,7 @@ def clean_salary(df_basic):
             mean=np.mean(result)         
         else:
             result=[]
+            mean=''
         resultlist.append(result)
         mean_list.append(mean)    
     df_basic['salary_scale']=resultlist
@@ -72,25 +60,21 @@ def clean_salary(df_basic):
 #Set the structual of dataframe
 def df_basic(raw):
     df = pd.read_csv(raw)
-    df_basic = pd.DataFrame(columns=("job_title","company_name","location_in_detail",'salary','rating',"job_id",'title','location'))
+    df_basic = pd.DataFrame(columns=("job_title","company_name","location_in_detail",'salary','rating','title','location'))
     for index,row in df.iterrows():
         soup=BeautifulSoup(row[1],'html.parser')
         script = soup.find("script", text=lambda text: text and "var jobKeysWithInfo" in text).text
-        """ get list of id and list of "company_name","location",'salary','rating',"job_id" """
-        id_list=get_job_id(soup)
         cards=soup.find_all('div','job_seen_beacon')
         result=[[card.h2.text,card.find("div",'heading6').contents[0].text,card.find('div','companyLocation').text,
                 job_salary(card),job_rating(card)] for card in cards]
-        """join two list """
-        [result[i].append(id_list[i]) for i in range(len(result))]
         """Add salary """
         [result[i].append(row[2]) for i in range(len(result))]
         """Add location """
         [result[i].append(row[3]) for i in range(len(result))]
         for r in range(len(result)):
-            df_basic=df_basic.append(pd.Series(result[r], index = ["job_title","company_name","location_in_detail",'salary','rating',"job_id",'title','location']), ignore_index=True)
+            df_basic=df_basic.append(pd.Series(result[r], index = ["job_title","company_name","location_in_detail",'salary','rating','title','location']), ignore_index=True)
         """return into dataframe with order"""
-        df_basic=df_basic[["job_title","company_name","location_in_detail",'salary','rating',"job_id",'title','location']]
+        df_basic=df_basic[["job_title","company_name","location_in_detail",'salary','rating','title','location']]
         '''clean salary '''
         df_basic=clean_salary(df_basic)
         '''output result.csv'''
