@@ -6,11 +6,11 @@ import numpy as np
 import time
 import os
 
-JOB_TITLE = input("Please enter a job title (Data Analyst/ Data Scientist/ Data Engineer): ")
-INPUT_FILE = "job_des_html_" + JOB_TITLE + ".csv"
-OUTPUT_FILE = "job_industry_" + JOB_TITLE + ".csv"
-INPUT_PATH = os.path.join("data", INPUT_FILE)
-OUTPUT_PATH = os.path.join("data", OUTPUT_FILE)
+JOB_TITLE = input('Please enter a job title (Data Analyst/ Data Scientist/ Data Engineer): ')
+INPUT_FILE = 'job_des_html_' + JOB_TITLE + '.csv'
+OUTPUT_FILE = 'job_industry_' + JOB_TITLE + '.csv'
+INPUT_PATH = os.path.join('data', INPUT_FILE)
+OUTPUT_PATH = os.path.join('data', OUTPUT_FILE)
 
 def get_cmp_name():
     '''Return a dataframe that list all jid and company name'''
@@ -18,11 +18,11 @@ def get_cmp_name():
     df_job_des_html = pd.read_csv(INPUT_PATH)
     jid_cmp_dic = {}
     for row in range(len(df_job_des_html)):
-        html = BeautifulSoup(df_job_des_html['HTML'][row],'html.parser') # need to check whether it can run. in test file it is html = df_test['HTML'][row]
+        html = BeautifulSoup(df_job_des_html['HTML'][row],'html.parser') 
         jid = df_job_des_html['jid'][row]
-        cmp_names = html.find_all("div", "icl-u-lg-mr--sm icl-u-xs-mr--xs")
+        cmp_names = html.find_all('div', 'icl-u-lg-mr--sm icl-u-xs-mr--xs')
         for cmp_name in cmp_names:
-            if cmp_name.text != "":
+            if cmp_name.text != '':
                 jid_cmp_dic[jid] =  cmp_name.text
     
     jid_cmp_df = pd.DataFrame(list(jid_cmp_dic.items()))
@@ -50,14 +50,14 @@ def get_com_industry(jid_cmp_df):
         cmp_url = 'https://www.indeed.com/cmp/' + company
         cmp_response=requests.get(cmp_url)
         cmp_html=BeautifulSoup(cmp_response.text,'html.parser')
-        cmp_industry = cmp_html.find("li", attrs={"data-testid": "companyInfo-industry"})
+        cmp_industry = cmp_html.find('li', attrs={'data-testid': 'companyInfo-industry'})
         if cmp_industry != None:
             industry_name = cmp_industry.text
             industry[company] = industry_name[8: ]
         else:
-            industry[company] = ""
+            industry[company] = ''
         
-        print(success_counts)
+        print(str(success_counts) + ' job(s) industry fetched.')
         sleeper(10.6666, 20.999)
         
         success_counts += 1
@@ -69,7 +69,7 @@ def get_com_industry(jid_cmp_df):
 
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
 
     jid_cmp_df = get_cmp_name()
     cmp_industry_df = get_com_industry(jid_cmp_df)
