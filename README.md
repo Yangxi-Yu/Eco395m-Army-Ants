@@ -10,14 +10,13 @@
 ## Data Source 
 The raw data comes from the [Indeed](https://www.indeed.com) website. 
 ## Goal of the Analysis
-The goal of this project is to provide an overview of data science related jobs in Texas, California, and New York. Data science is a fascinating, thriving, and well-paid field. Data scientists are needed in practically every domain: business, finance, science, health, and the public sector. According to our career placement report, many alumni choose to work in data related filed. Therefore, this project intends to provide some information for econ students to help prepared themselves and find satisfying jobs.
+The goal of this project is to provide an overview of data science-related jobs in Texas, California, and New York. Data science is a fascinating, thriving, and well-paid field. Data scientists are needed in practically every domain: business, finance, science, health, and the public sector. According to our career placement report, many alumni choose to work in data-related filed. Therefore, this project intends to provide some information for econ students to help prepare themselves and find satisfying jobs.
 ## Methodology
-This program mainly uses quantitative method to analysis the data science job market. 
+This program mainly uses the quantitative method to analyze the data science job market.
 ![Methodology](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/dec05c5129d3f778afbd7f1b442bf4365fd1226c/figure/Methodology.png)
 * It uses data crawling to get job descriptions of data science from indeed.
-* It uses Pandas to clean and reorganize raw data, and then generates a csv with six columns including job id, job title, company name, location, salary, and job rating.
-* It uses matplotlib to create plots and figures to visualize the relationships between the data related jobs and skills, locations, companies, industries, and salary.
-## Findings
+* It uses Pandas to clean and reorganize raw data and then generates a CSV with six columns including job id, job title, company name, location, salary, and job rating.
+* It uses matplotlib to create plots and figures to visualize the relationships between the data related jobs and skills, locations, companies, industries, and salaries.
 ### 1. Skill & Job
 
 ![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/aac3068ba57b9a1e2131d5f4dff233c5873e9c79/figure/figure1.jpg)
@@ -65,7 +64,7 @@ Specifically, in California, the number of Data Analyst and Data Scientist jobs 
 |SiriusXM|18|
 |Walmart|18|
 
-* The table shows the top 20 companies that posted data jobs in California, New York State, and Texas in the last 30 days. Among them JPMorgan Chase Bank (76) , Visa (56) , Deloitte (54) are at the top.
+* The table shows the top 20 companies that posted data jobs in California, New York State, and Texas in the last 30 days. Among them, JPMorgan Chase Bank (76), Visa (56), Deloitte (54) are at the top.
 
 ![Numbers of Jobs in Each Category Posted by the Top Five Companies](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/e8e00ded4b6da2bbe58f23e733481bae1539f5dd/figure/figure3.png)
 * This diagram shows the top 5 companies in terms of the number of job postings for the positions Data Analyst, Data Engineer, and Datra Scientist.
@@ -76,9 +75,9 @@ Specifically, in California, the number of Data Analyst and Data Scientist jobs 
 
 ### 4. Industry & Job Vacancies
 ![Numbers of Jobs in Each Category Posted by the Top Five Industries](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/e8e00ded4b6da2bbe58f23e733481bae1539f5dd/figure/figure4.png)
-* This section focuses on the distribution of job numbers in three titles among different industries and top five industries.
-* The total number of jobs in information technology is far ahead of jobs in other industries. Apart from information industry, health care is eager for employing many jobs for data analysts. 
-* There are relatively many jobs for data scientists in financial services, healthcare and information technology. It makes sense since data scientists may be resonsible for evaluating differnet models and abstracting their commericial values and providing suggestions, which are important for helath and financial analyses and model selection among information technology.
+* This section focuses on the distribution of job numbers in three titles among different industries and the top five industries.
+* The total number of jobs in information technology is far ahead of jobs in other industries. Apart from the information industry, health care is eager for employing many jobs for data analysts. 
+* There are relatively many jobs for data scientists in financial services, healthcare, and information technology. It makes sense since data scientists may be responsible for evaluating different models and abstracting their commercial values and providing suggestions, which are important for health and financial analyses and model selection among information technology.
 ### 5. Salary & Job
 ![Salaries Among Three Categories in Three Locations](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/ae18d189fcc3231153a84e0ea696dfc482399727/figure/figure5-1.png)
 * In any of the three job categories, salaries of data engineers and data scientists are significantly higher than data analysts. From the general perspective, workers in California and New York earns more than those in Texas.
@@ -86,25 +85,25 @@ Specifically, in California, the number of Data Analyst and Data Scientist jobs 
 ![Salaries in Three Locations Between Three Job Categories](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/ae18d189fcc3231153a84e0ea696dfc482399727/figure/figure5-2.png)
 
 * The box plots show the distribution of salaries of different job categories in different states, especially they can show the discrete values.
-* Although the average salary of data analysts is lower than the other two, there also exist several working opportunities to earn quite high, about 250000.
-* The average salary of data engineers is high and there are also several works earning very high, so earnings of data engineers are very high, which may mean that this job needs relatively high ability.
-* The distribution of salary of data scientists is relatively narrower than the other two, which may mean this job type provides a steady work.
+* Although the average salary of data analysts is lower than the other two, there are several working opportunities to earn quite high, about 250000.
+* The average salary of data engineers is high and there are also several workers earning very high, so earnings of data engineers are very high, which may mean that this job needs relatively high ability.
+* The distribution of salary of data scientists is relatively narrower than the other two, which may mean this job type provides steady work.
 
 
 ## Limitations
 ### Data 
 This project has four limitations in data resource: limited data quantity, ambiguous classification, limited period, and opaque soft skill identification.
-* This project has about 5000 pieces of data in the job list, and only has about 300 pieces of data in the job description. The reason for limited data quantity is that when crawling the data from indeed, too frequent visit will be blocked by the website, so a sleeper is set but increases the time to get data. 
-* For the job title classification, this project only selects specific jobs by filtering key words such as 'data scientist' and 'data analyst'. However, data related jobs may have various names but having the similar job descriptions, and this hiring information be ignored, which leads to incomplete data collection. 
-* Indeed only preserves the data in the past 30 days, so this project is unable to make a time series analysis like the growth rate of the data science related jobs, or to make predictions for the future data science job market by using historic data. 
-* The soft skill identification sometimes could be hard. For example, some jobs require 'good communication skills', 'leadership', and so on. These skills are difficult to measure to some extent.
+* This project has about 5000 pieces of data in the job list and only has about 300 pieces of data in the job description. The reason for limited data quantity is that when crawling the data from the indeed, too frequent visits will be blocked by the website, so a sleeper is set but increases the time to get data. 
+* For the job title classification, this project only selects specific jobs by filtering keywords such as 'data scientist' and 'data analyst'. However, data-related jobs may have various names but have similar job descriptions, and this hiring information is ignored, which leads to incomplete data collection. 
+* Indeed only preserves the data in the past 30 days, so this project is unable to make a time series analysis like the growth rate of the data science-related jobs, or to make predictions for the future data science job market by using historic data. 
+* Soft skill identification sometimes could be hard. For example, some jobs require 'good communication skills', 'leadership', and so on. These skills are difficult to measure to some extent.
 
 ### Analysis
-* When analysing the salary, this project may not consider factors such as local ecnomy, house prices, and taxes. 
-* Most posted job vacancies in Indeed are targetd on experienced job seekers, which may be not friendyly to fresh graduates. 
+* When analyzing the salary, this project may not consider factors such as the local economy, house prices, and taxes. 
+* Most posted job vacancies in Indeed are targeted at experienced job seekers, which may be not friendly to fresh graduates.
 
 ## Extensions
-* To make the further project be perfect, our team may set a program from now to catch the job information from Indeed every 30 days to prepare for predicting the trend of data science job market. 
+* To make the further project perfect, our team may set a program from now to catch the job information from Indeed every 30 days to prepare for predicting the trend of data science job market. 
 * Factors that can influence the salaries among differenct regions such as tax, house price may be considered in the future analysis. 
 * According to the exist conclusion, this project intends to provide some useful advice for those economic students who has the willingness to seek data related career. 
 
@@ -166,11 +165,11 @@ Run `python3 code/get_skills_list.py` and enter a job title (Data Analyst/ Data 
 |data/job_skills_counts_Data Scientist.csv|Data Scientist|
 
 #### Step 3. Merged all the files generated from section 3-1 and 3-2
-Run `merge_job_desc_info.py` which helps merge all 6 files in section 3-1 and 3-2. The output file is `data/job_desc_info.csv`.
+Run `python3 merge_job_desc_info.py` which helps merge all 6 files in section 3-1 and 3-2. The output file is `data/job_desc_info.csv`.
 
 
 ### 4. Analyze and visualize cleaned data
-Run `analysis_plot.ipynb` and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
+Run `python3 analysis_plot.ipynb` and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
 
 Figure 1: 
 Use pandas, matplot and wordcloud for this section.
