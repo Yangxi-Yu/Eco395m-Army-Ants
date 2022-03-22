@@ -110,6 +110,7 @@ This project has four limitations in data resource: limited data quantity, ambig
 
 ## Instructions
 ### 0. Installation
+*Please note that the data scraping process may take a lot of time, so, it’s better to skip this section and start reproduce process from section 2 – Data Cleaning.*
 Run `pip install -r requirements.txt`
 ### 1. Data Scrape and Clean
 #### Output:`data/merged_searched_job_html.csv`
@@ -139,14 +140,14 @@ Run `python3 code/get_job_des.py` and enter a job title (Data Analyst/ Data Scie
 |data/ job_des_html_Data Engineer.cs|Data Engineer|
 |data/job_des_html_Data Scientist.csv|Data Scientist|
 
-### 2. Clean HTML files that generated in section 1-1 and get basic information for each job
+### 2. Data Cleaning: clean HTML files that generated in section 1-1 to get basic information for each job
 #### Output:`basic_info.csv`
 Run `python3 html_dataframe.py` to generate `basic_info.csv` with information of job_id, salary, ratings, company, specific location and specific title.
 |Generate Files|Parameters Entered|
 |--------------|------------------|
 |data/basic_list.csv|data/merged_searched_job_html.csv|
 
-### 3. Clean HTML files that generated in section 1-2 and get detailed information for each job
+### 3. Data Cleaning: clean HTML files that generated in section 1-2 to get detailed information for each job
 #### Output:`job_desc_info.csv`
 #### Step 1. Get industry information based on the files that generated in section 1-2
 Run `python3 code/get_industry.py` and enter a job title (Data Analyst/ Data Scientist/ Data Engineer) to fetch industry information for all the jobs in section 1-2. Here are the output files:
