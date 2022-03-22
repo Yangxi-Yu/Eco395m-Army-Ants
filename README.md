@@ -13,23 +13,23 @@ The raw data comes from the [Indeed](https://www.indeed.com) website.
 The goal of this project is to provide an overview of data science-related jobs in Texas, California, and New York. Data science is a fascinating, thriving, and well-paid field. Data scientists are needed in practically every domain: business, finance, science, health, and the public sector. According to our career placement report, many alumni choose to work in data-related filed. Therefore, this project intends to provide some information for econ students to help prepare themselves and find satisfying jobs.
 ## Methodology
 This program mainly uses the quantitative method to analyze the data science job market.
-![Methodology](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/Methodology.png)
+![Methodology](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/dec05c5129d3f778afbd7f1b442bf4365fd1226c/figure/Methodology.png)
 * It uses data crawling to get job descriptions of data science from indeed.
 * It uses Pandas to clean and reorganize raw data and then generates a CSV with six columns including job id, job title, company name, location, salary, and job rating.
 * It uses matplotlib to create plots and figures to visualize the relationships between the data related jobs and skills, locations, companies, industries, and salaries.
 ### 1. Skill & Job
 
-![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/aac3068ba57b9a1e2131d5f4dff233c5873e9c79/figure/figure1.jpg)
+![pie chart](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/figure1.png)
 
-![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d2db66b13fb6d1aea95917de6835a078ce1021e2/figure/Figure1-1.jpg)
+![Skill1](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/figure1-1.png)
 
 * For data analysts, Excel, SQL are the most required skills, following by Power BI and Tableau. 
 
-![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-2.jpg)
+![Skill2](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/figure1-2.png)
 
 * For data engineers, SQL, Cloud are the most required skills, following by Python, AWS and Spark.
 
-![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/d4f3930ddb61830fb56b88726bf37ff56d6c207e/figure/Figure1-3.jpg)
+![Skill3](https://github.com/Yangxi-Yu/Eco395m-Army-Ants/blob/main/figure/figure1-3.png)
 
 * For data scientists, Python, AI and Cloud are the most required skills, follwing by Statistics ML, SQL.
 
