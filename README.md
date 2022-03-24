@@ -169,7 +169,7 @@ Run `python3 merge_job_desc_info.py` which helps merge all 6 files in section 3-
 
 
 ### 4. Analyze and visualize cleaned data
-Run `python3 analysis_plot.ipynb` and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
+Run `analysis_plot.ipynb` in jupyter lab and we can get totally 7 plots for 5 sections. The detailed instructions for each figure are below.
 
 Figure 1: 
 Use pandas, matplot and wordcloud for this section.
